@@ -560,7 +560,7 @@ footer{
 @media screen and (max-width:990px){
 
     .nav-item5 a::before{
-        width: 50px !important;
+        width: 0px !important;
     }
     
     .nav-item{
