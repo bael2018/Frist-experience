@@ -39,7 +39,7 @@
                     <li class="nav-item" data-aos-delay="300" data-aos="fade-down-left">
                         <a class="nav-link" href="contact.html">Контакты</a>
                     </li>
-                    <li class="nav-item nav-item5">
+                    <li class="nav-item nav-item5" data-aos-delay="400" data-aos="fade-down-left">
                         <a class="nav-link" href="#">
                             <img src="img/flag1.png" alt="">
                             <i class="fas fa-caret-down"></i>
@@ -64,13 +64,14 @@
                 </div>
             </nav>
         </div>
+
+        <div class="header_lower">
+            <h1>ПОСВЯЩЯЕТСЯ СОВЕРШЕНСТВУ</h1>
+            <h1>В ЮРИДИЧЕСКОЙ ПРАКТИКЕ</h1>
+        </div>
     </header>
 
     <main>
-        <section class="about">
-
-        </section>
-
         <section class="team_container">
             <div class="team_title" data-aos="fade-up">
                 <h1>Наша команда</h1>
@@ -161,8 +162,28 @@
             </div>
         </section>
 
-        <section class="news">
+        <section class="register">
+            <div class="register_image"></div>
 
+            <div class="register_container">
+                <form action="address">
+                    <input class="input1"  placeholder="Ваше имя*" name="name" type="text">
+                    <input class="input1 input2"  placeholder="Ваш телефон*" type="tel" name="tel">
+                    <div class="dropdown">
+                        <button class="sub dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Наши услуги
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, animi?</a>
+                            <a class="dropdown-item" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, animi?</a>
+                            <a class="dropdown-item" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, animi?</a>
+                            <a class="dropdown-item" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, animi?</a>
+                        </div>
+                    </div>
+                    <textarea placeholder="Комментарий*" name="feedback" cols="30" rows="10"></textarea>
+                    <button class="sub2" type="submit">ОТПРАВИТЬ</button>
+                </form>
+            </div>
         </section>
     </main>
 
