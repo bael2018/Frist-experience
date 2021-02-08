@@ -10,7 +10,7 @@ body{
 header{
     width: 100%;
     overflow: hidden;
-    height: 100vh;
+    height: 676px;
     position: relative;
     background: url('../img/gif.gif') center / cover fixed;
 }
@@ -263,12 +263,13 @@ main{
 .on{
     color: white;
     text-align: center;
-    height: 100vh;
+    height: 676px;
     padding-top: 40px;
     background: url('../img/about.jpg') center / cover fixed;
     position: relative;
     width: 100%;
 }
+
 .on:before{
     content: '';
     position: absolute;
@@ -276,7 +277,7 @@ main{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 .ond{
     z-index: 2;
@@ -313,7 +314,8 @@ main{
 
 .next{
     background: rgb(17, 127, 252);
-    padding: 8px 25px;
+    padding: 10px 30px;
+    border-radius: 3px;
     outline: none;
     border: none;
     color: white;
@@ -322,6 +324,8 @@ main{
 
 .next:hover{
     background: rgb(61, 61, 61);
+    text-decoration: none;
+    color: white;
 }
 .ss{
     font-size: 25px;
@@ -333,13 +337,13 @@ main{
 
 .on1 div p{
     line-height: 1.7;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .bloks{
-    padding: 50px 100px;
+    padding: 50px 60px;
     overflow: hidden;
 }
 
@@ -352,13 +356,14 @@ main{
     width: 48%;
     height: auto;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     position: relative;
 }
 
 .bloksu div:hover h1{
     margin-left: 35px;
 }
+
 .bloksu  h1{
     font-weight: 500;
     font-size: 40px;
@@ -415,7 +420,7 @@ main{
 .team_container{
     width: 100%;
     position: relative;
-    height: 120vh;
+    height: 676px;
     padding-bottom: 50px;
     margin-bottom: 50px;
     background: url('../img/team_banner.jpg') center / cover;
@@ -495,10 +500,10 @@ main{
 
 .team_block{
     position: absolute;
-    height: 57%;
+    height: 63%;
     width: 90%;
     left: 5%;
-    bottom: 14%;
+    bottom: 9%;
 }
 
 .team_title{
@@ -565,7 +570,7 @@ main{
     width: 100%;
     height: 600px;
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .new_title{
@@ -611,39 +616,37 @@ main{
     height: 40%;
     text-align: center;
     width: 100%;
+    position: relative;
+}
+
+.new_content::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0px;
+    width: 50%;
+    height: 30%;
+    background: rgb(17, 127, 252);
+    clip-path: polygon(0 40%, 0% 100%, 100% 100%);
 }
 
 .new_content p{
     font-weight: 300;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 25px;
     line-height: 1.6;
 }
 
-.new_content a{
-    color: rgb(250, 250, 250);
-    background:rgb(17, 127, 252);
-    padding: 9px 25px;
-    font-size: 14px;
-    border-radius: 3px;
-    font-weight: 500;
-    transition: .3s;
-}
-
-.new_content a:hover{
-    background: rgb(56, 56, 56);
-}
-
-.new_content a:hover{
-    text-decoration: none;
+.new_content h4{
+    color: rgb(63, 63, 63);
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 .new_banner img{
     width: 100%;
     height: 100%;
 }
-
 
 /* register */
 
@@ -884,7 +887,7 @@ footer{
 }
 
 .footer_inner2 a p:nth-child(3){
-    font-size: 16px;
+    font-size: 15px;
     margin: 0 auto;
     margin-top: 30px;
     width: 100%;
@@ -953,31 +956,14 @@ footer{
 
 @media screen and (max-width:1326px){
 
-    .on{
-        height: 130vh;
-    }
-    
     .register{
         width: 100%;
         height: 135vh;
         position: relative;
     }
-
-    header{
-        height: 120vh;
-    }
-    
-    .team_container{
-        height: 140vh;
-    }
 }
 
 @media screen and (max-width:1266px){
-
-    .on{
-        height: 135vh;
-    }
-    
 
     .input1{
         width: 48.7%;
@@ -993,6 +979,10 @@ footer{
 }
 
 @media screen and (max-width:1216px){
+
+    .on1 div p{
+        margin-bottom: 30px;
+    }
 
     .input1{
         width: 48.8%;
@@ -1030,6 +1020,10 @@ footer{
 
 @media screen and (max-width:1150px){
 
+    .triple_inner1 p{
+        margin-top: 35px;
+    }
+
     .nav-item{
         margin-left: 7px;
     }
@@ -1049,15 +1043,6 @@ footer{
     .new_content{
         padding-top: 20px;
     }
-
-    .news{
-        height: 500px;
-    }
-
-    .team_container{
-        height: 115vh;
-    }
-
 }
 
 @media screen and (max-width:1100px){
@@ -1200,12 +1185,12 @@ footer{
     
     .slide_inner h4{
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 25px;
     }
     
     .slide_inner p{
         margin-top: 5px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .new_inside .new_inner{
@@ -1233,10 +1218,6 @@ footer{
         font-size: 38px;
     }
 
-    .team_container{
-        height: 120vh;
-    }
-
     .navbar-brand h1{
         color: white;
         margin: 0px;
@@ -1257,23 +1238,34 @@ footer{
     }
 }
 
+@media screen and (max-width:1070px){
+
+    .on{
+        height: 700px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .slide_inner{
+        width:48%;
+        height: 100%;
+    }
+}
+
 @media screen and (max-width:1000px){
     
     .on1 div p{
         line-height: 1.4;
     }
-
-    .news{
-        height: 530px;
-    }
 }
 
 @media screen and (max-width:990px){
 
-    .on{
-        height: 135vh;
+    .news{
+        height: 1030px;
     }
-    
 
     .new_banner img{
         width: 100%;
@@ -1303,10 +1295,6 @@ footer{
         display: flex;
         justify-content: center;
         width: 100%;
-    }
-
-    .news{
-        height: 1000px;
     }
 
     .new_inside .new_inner{
@@ -1423,7 +1411,7 @@ footer{
 @media screen and (max-width:924px){
 
     .on{
-        height: 140vh;
+        height: 700px;
     }
 
     .header_lower h1{
@@ -1437,13 +1425,13 @@ footer{
     .slide_inner h4{
         color: rgb(255, 255, 255);
         margin-top: 10px;
-        font-size: 18px;
+        font-size: 24px;
     }
     
     .slide_inner p{
         color: rgb(255, 255, 255);
         margin-top: 5px;
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 300;
     }
 
@@ -1455,6 +1443,14 @@ footer{
 }
 
 @media screen and (max-width:910px){
+
+    header{
+        height: 500px;
+    }
+
+    .on{
+        height: 750px;
+    }
 
     .team_title{
         position: absolute;
@@ -1470,20 +1466,22 @@ footer{
     
     .slide_inner h4{
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 23px;
     }
     
     .slide_inner p{
         margin-top: 5px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .triple_inner1 p{
         line-height: 1.5;
         width: 90%;
         margin: 0 auto;
-        margin-top: 70px;
-        font-size: 14px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 16px;
     }
     
     .triple_inner2 p{
@@ -1495,7 +1493,7 @@ footer{
         line-height: 1.5;
         width: 80%;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 0px;
         font-size: 40px;
     }
 
@@ -1503,7 +1501,7 @@ footer{
         width: 80%;
         margin: 0 auto;
         margin-bottom: 20px;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 1.4;
     }
 
@@ -1531,11 +1529,10 @@ footer{
     }
 }
 
-
-@media screen and (max-width:864px){
-
+@media screen and (max-width:846px){
+    
     .on{
-        height: 150vh;
+        height: 770px;
     }
 }
 
@@ -1580,7 +1577,7 @@ footer{
 @media screen and (max-width:800px){
 
     .on1 div p{
-        line-height: 1.4;
+        line-height: 1.5;
         font-size: 15px;
     }
 
@@ -1593,12 +1590,21 @@ footer{
         width: 100%;
         margin: 0 auto;
     }
+
+    .triple_inner1 p{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width:732px){
 
     .on{
-        height: 155vh;
+        height: 800px;
+    }
+
+    .header_lower{
+        bottom: 25%;
     }
 
     .input1{
@@ -1622,7 +1628,7 @@ footer{
     }
     
     .triple_inner1 p{
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .triple_inner2{
@@ -1630,7 +1636,7 @@ footer{
     }
 
     .triple_inner2 h1{
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .footer_inner2{
@@ -1656,14 +1662,21 @@ footer{
     }
 }
 
-@media screen and (max-width:668px){
+@media screen and (max-width:690px){
 
+    .on{
+        height: 820px;
+    }
+}
+
+@media screen and (max-width:668px){
+    
     .on1 div p{
         line-height: 1.4;
         margin-bottom: 30px;
         color: white;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .header_lower h1{
@@ -1674,13 +1687,28 @@ footer{
     .header_lower h1:first-child{
         font-size: 30px;
     }
+}
 
-    header{
-        height: 100vh;
+@media screen and (max-width:650px){
+
+    .on{
+        height: 850px;
+    }
+
+    .team_block{
+        position: absolute;
+        height: 60%;
+        width: 80%;
+        left: 10%;
+        bottom: 10%;
     }
 }
 
 @media screen and (max-width: 623px){
+
+    .on{
+        height: 880px;
+    }
 
     .dropdown-item{
         font-size: 12px;
@@ -1721,13 +1749,17 @@ footer{
         height: 90%;
         margin: 0 auto;
     }
-
-    .on{
-        height: 160vh;
-    }
 }
 
 @media screen and (max-width: 584px){
+
+    .team_block{
+        position: absolute;
+        height: 55%;
+        width: 80%;
+        left: 10%;
+        bottom: 12%;
+    }
 
     .dropdown-item{
         font-size: 11px;
@@ -1735,7 +1767,14 @@ footer{
     }
 
     .on{
-        height: 165vh;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 562px){
+
+    .on{
+        height: 950px;
     }
 }
 
@@ -1752,6 +1791,20 @@ footer{
 }
 
 @media screen and (max-width: 528px){
+
+    .news{
+        width: 100%;
+        height: 850px;
+        margin-bottom:20px;
+    }
+
+    .new_content p{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
 
     .team_title h1{
         font-size: 30px;
@@ -1788,10 +1841,6 @@ footer{
         bottom: 6%;
     }
 
-    .news{
-        height: 1000px;
-    }
-
     .new_inside{
         width: 90%;
         margin: 0 auto;
@@ -1824,11 +1873,11 @@ footer{
     }
 
     .on1 div p{
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom: 30px;
         color: white;
         font-weight: 300;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .header_lower h1{
@@ -1841,10 +1890,6 @@ footer{
 }
 
 @media screen and (max-width: 484px){
-
-    .news{
-        height: 850px;
-    }
 
     .new_inside{
         width: 90%;
@@ -1878,6 +1923,24 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    header{
+        height: 450px;
+    }
+
+    .on{
+        height: 980px;
+    }
+
+    .slide_lower .slide_obs h4{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    
+    .slide_lower .slide_obs p{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+
     .team_title{
         position: absolute;
         width: 70%;
@@ -1899,11 +1962,14 @@ footer{
     }
 }
 
-@media screen and (max-width:436px){
+@media screen and (max-width:444px){
 
     .on{
-        height: 175vh;
+        height: 1020px;
     }
+}
+
+@media screen and (max-width:436px){
 
     .header_lower h1{
         font-size: 18px;
@@ -1917,7 +1983,7 @@ footer{
 @media screen and (max-width:420px){
 
     .on{
-        height: 180vh;
+        height: 1100px;
     }
 
     .new_content p{
@@ -1983,7 +2049,7 @@ footer{
 @media screen and (max-width:388px){
 
     .on{
-        height: 190vh;
+        height: 1140px;
     }
 
     .header_lower h1{
@@ -1991,6 +2057,7 @@ footer{
     }
     
     .header_lower h1:first-child{
-        font-size: 18px;
+        font-size: 19px;
     }
+
 }

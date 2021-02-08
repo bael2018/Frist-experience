@@ -211,13 +211,15 @@ main{
     text-align: right;
 }
 
-.imgh2{
-    width: 60%;
-    padding-top: 15px;
+.imgh4{
+    text-align: right;
+    position: relative;
+    
 }
 
-.imgh4 img{
-    margin-left: 44px;
+.imgh2{
+    width: 60%;
+    padding-top: 40px;
 }
 
 .imgh2 h2{
@@ -529,5 +531,1075 @@ footer{
 
     .navbar-brand P::after{
         display: none;
+    }
+}
+
+
+
+@media screen and (max-width:1326px){
+
+    .on{
+        height: 130vh;
+    }
+    
+    .register{
+        width: 100%;
+        height: 135vh;
+        position: relative;
+    }
+
+    .team_container{
+        height: 140vh;
+    }
+}
+
+@media screen and (max-width:1266px){
+
+    .on{
+        height: 135vh;
+    }
+    
+
+    .input1{
+        width: 48.7%;
+
+    }
+
+    .new_content p{
+        margin: 0 auto;
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width:1216px){
+
+    .input1{
+        width: 48.8%;
+    }
+
+    .new_content p{
+        font-weight: 300;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width:1184px){
+
+    .new_content p{
+        font-weight: 300;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .nav-item a{
+        font-size: 15px;
+    }
+
+    .on1 div p{
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:1150px){
+
+    .nav-item{
+        margin-left: 7px;
+    }
+}
+
+@media screen and (max-width:1124px){
+
+    .new_content p{
+        font-weight: 300;
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .new_content{
+        padding-top: 20px;
+    }
+
+    .news{
+        height: 500px;
+    }
+
+    .team_container{
+        height: 115vh;
+    }
+
+}
+
+@media screen and (max-width:1100px){
+    
+    .navbar{
+        padding-right: 20px;
+    }
+
+    .header_lower h1{
+        color: white;
+        font-size: 30px;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 38px;
+    }
+
+    .bloksu  h1{
+        font-size: 35px;
+    }
+
+    .bloksu  div::before{
+        width: 15px;
+        height: 15px;
+        top: 25px;
+        left: 10px;
+    }
+
+    .footer_inner2 a h1{
+        font-size: 40px;
+    }
+    
+    .footer_inner2 a p:nth-child(2){
+        font-size: 17px;
+    }
+    
+    .footer_inner2 a p:nth-child(3){
+        font-size: 15px;
+        margin-top: 30px;
+        line-height: 1.5;
+    }
+
+    .footer_inner1 h2{
+        font-size: 26px;
+    }
+
+    .footer_inner3 h2{
+        font-size: 26px;
+    }
+
+    .register{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .input1{
+        padding: 6px 15px;
+        margin-bottom: 20px;
+    }
+
+    .register_container{
+        top: 2%;
+    }
+
+    .sub{
+        width: 100%;
+        padding: 6px 0px;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+
+    .register_container textarea{
+        width: 100%;
+        transition: .4s;
+        padding: 8px 15px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    
+    footer{
+        width: 100%;
+        padding-top: 100px !important;
+    }
+}
+
+@media screen and (max-width:1080px){
+
+    .navbar{
+        padding-right: 20px !important;
+    }
+
+    .navbar-brand{
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width:1060px){
+
+    .imgh2 p{
+        line-height: 1.5;
+        font-size: 15px;
+    }
+
+    .navbar{
+        padding-right: 10px !important;
+    }
+
+    .navbar-brand{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:1034px){
+
+    .team_title{
+        position: absolute;
+        width: 30%;
+        left: 35%;
+        top: 10%;
+        text-align: center;
+    }
+    
+    .team_title h1{
+        font-size: 35px;
+    }
+
+    .team_title h1::before{
+        bottom: -23px;
+        left: 45%;
+        width: 50px;
+        height: 4px;
+    }
+    
+    .team_title h1::after{
+        bottom: -13px;
+        left: 40%;
+        width: 50px;
+        height: 4px;
+    }
+    
+    .slide_inner h4{
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .slide_inner p{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .new_inside .new_inner{
+        width: 32%;
+    }
+
+    .footer_container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        height: 230px;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .bloksu div p{
+        font-size: 15px;
+    }
+
+    .on1 h1{
+        font-size: 38px;
+    }
+
+    .h11{
+        font-size: 38px;
+    }
+
+    .team_container{
+        height: 120vh;
+    }
+
+    .navbar-brand h1{
+        color: white;
+        margin: 0px;
+        font-size: 33px;
+    }
+    
+    .navbar-brand P{
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+        margin: 0px;
+        letter-spacing: 3px;
+        position: relative;
+    }
+
+    .navbar-brand P::before,
+    .navbar-brand P::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px){
+    
+    .on1 div p{
+        line-height: 1.4;
+    }
+
+    .news{
+        height: 530px;
+    }
+}
+
+@media screen and (max-width:990px){
+
+    .on{
+        height: 135vh;
+    }
+    
+
+    .new_banner img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .new_inside{
+        width: 80%;
+        margin: 0 auto;
+        height: 85%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .new_banner{
+        height: 100% !important;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .new_content{
+        padding-top: 0px;
+        height: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .news{
+        height: 1000px;
+    }
+
+    .new_inside .new_inner{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgb(219, 219, 219);
+    }
+
+    .navbar-brand{
+        margin-left: 27px;
+    }
+
+    .navbar-brand h1{
+        color: white;
+        margin: 0px;
+        font-size: 35px;
+    }
+
+    .new_content p{
+        font-weight: 500;
+        width: 90%;
+        color: rgb(73, 73, 73);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    
+    .navbar-brand P{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        margin: 0px;
+        letter-spacing: 3px;
+        position: relative;
+    }
+
+    .bloksu div{
+        width: 48%;
+        height: auto;
+        padding: 0px 10px;
+        margin-bottom: 25px;
+    }
+
+    .dropdown-item{
+        font-size: 15px;
+        padding: 10px 15px; 
+    }
+
+    .bloksu  div::before{
+        width: 15px;
+        height: 15px;
+        top: 15px;
+        left: 10px;
+    }
+
+    .nav-item5 a::before{
+        width: 0px !important;
+    }
+    
+    .nav-item{
+        margin-left: 28px;
+        margin-bottom: .3px;
+    }
+
+    .nav-item a{
+        color: white;
+        font-size: 23px;
+        position: relative;
+        transition: .3s;
+        font-weight: 500;
+    }
+
+    .nav-item1 a{
+        color: rgb(17, 127, 252);
+    }
+
+    .nav-item a:hover::before{
+        width: 155px;
+        left: 0;
+    }
+
+    .burder_links{
+        display: inline-flex;
+    }
+
+    .burder_links .nav-link{
+        font-size: 25px;
+    }
+
+    .burder_links .nav-item{
+        margin-left: 22px;
+    }
+
+    .burder_links .nav-item a:hover::before{
+        width: 34px;
+        left: 0;
+    }
+}
+
+@media screen and (max-width:924px){
+
+    .bl1{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        height: 450px;
+    }
+    
+    .imgh2 p{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    .imgh4{
+        margin-left: 40px;
+    }
+
+    .imgh3{
+        margin-left: 40px;
+    }
+
+    .bloks{
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .imgh img{
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imgh{
+        width: 40%;
+        padding-top: 0px;
+    }
+
+    .on{
+        height: 140vh;
+    }
+
+    .header_lower h1{
+        color: white;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 33px;
+    }
+
+    .slide_inner h4{
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    
+    .slide_inner p{
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .footer_inner2 a p:nth-child(3){
+        font-size: 13px;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:910px){
+
+    .team_title{
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        top: 10%;
+        text-align: center;
+    }
+    
+    .team_title h1{
+        font-size: 34px;
+    }
+    
+    .slide_inner h4{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .slide_inner p{
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .triple_inner1 p{
+        line-height: 1.5;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 70px;
+        font-size: 14px;
+    }
+    
+    .triple_inner2 p{
+        font-size: 14px;
+        margin: 0px;
+    }
+    
+    .triple_inner2 h1{
+        line-height: 1.5;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+        font-size: 40px;
+    }
+
+    .new_content p{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .dropdown-item{
+        font-size: 14px;
+        padding: 10px 15px; 
+    }
+
+    .bloksu  h1{
+        font-size: 31px;
+    }
+
+    .bloksu  div::before{
+        width: 15px;
+        height: 15px;
+        top: 12px;
+        left: 10px;
+    }
+
+    .bloksu div{
+        width: 750px;
+        height: auto;
+        padding: 0px 10px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media screen and (max-width:864px){
+
+    .on{
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width:830px){
+
+    .imgh3{
+        text-align: center;
+    }
+    
+    .imgh4{
+        text-align: center;
+    }
+
+    .slide_content{
+        width: 95%;
+        height: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .team_block{
+        position: absolute;
+        height: 60%;
+        width: 80%;
+        left: 10%;
+        bottom: 13%;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    .slide_inner{
+        width:48%;
+        height: 100%;
+    }
+    
+    .slide_lower .slide_obs h4{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    
+    .slide_lower .slide_obs p{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:800px){
+
+    .on1 div p{
+        line-height: 1.4;
+        font-size: 15px;
+    }
+
+    .dropdown-item{
+        font-size: 13px;
+        padding: 10px 15px; 
+    }
+
+    .on1{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:732px){
+
+    .on{
+        height: 155vh;
+    }
+
+    .input1{
+        width: 100%;
+    }
+
+    .input2{
+        margin-left: 0% !important;
+    }
+
+    .triple div{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .triple_inner1{
+        order: 2;
+        padding-top: 0px;
+        margin-bottom: 30px;
+    }
+    
+    .triple_inner1 p{
+        margin-top: 50px;
+    }
+
+    .triple_inner2{
+        order: 1;
+    }
+
+    .triple_inner2 h1{
+        margin-top: 20px;
+    }
+
+    .footer_inner2{
+        display: none;
+    }
+
+    .footer_inner1{
+        width: 45%;
+    }
+    
+    .footer_inner3{
+        width: 30%;
+    }
+    
+    .footer_container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        height: 230px;
+        justify-content: center;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width:668px){
+
+    .on1 div p{
+        line-height: 1.4;
+        margin-bottom: 30px;
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .header_lower h1{
+        color: white;
+        font-size: 25px;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 623px){
+
+    .dropdown-item{
+        font-size: 12px;
+        padding: 10px 15px; 
+    }
+}
+
+@media screen and (max-width:610px){
+
+    .news{
+        width: 100%;
+        margin-bottom:20px;
+    }
+
+    .header_lower h1{
+        font-size: 22px;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 27px;
+    }
+
+    .new_inside{
+        width: 90%;
+        margin: 0 auto;
+        height: 85%;
+    }
+
+    .sub{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:610px){
+
+    .slide_content{
+        width: 100%;
+        height: 90%;
+        margin: 0 auto;
+    }
+
+    .on{
+        height: 160vh;
+    }
+}
+
+@media screen and (max-width: 584px){
+
+    .dropdown-item{
+        font-size: 11px;
+        padding: 10px 15px; 
+    }
+
+    .on{
+        height: 165vh;
+    }
+}
+
+@media screen and (max-width: 544px){
+
+    .dropdown-item{
+        font-size: 10px;
+        padding: 10px 15px; 
+    }
+}
+
+@media screen and (max-width: 528px){
+
+    .team_title h1{
+        font-size: 30px;
+    }
+
+    .h11{
+        font-size: 32px;
+    }
+
+    .bloksu  h1{
+        font-size: 28px;
+    }
+
+    .bloksu  div::before{
+        width: 13px;
+        height: 13px;
+        top: 12px;
+        left: 14px;
+    }
+    .hide1{
+        display: none;
+    }
+
+    .slide_inner{
+        width: 100%;
+        height: 100%;
+    }
+
+    .team_block{
+        position: absolute;
+        height: 70%;
+        width: 75%;
+        left: 12.5%;
+        bottom: 6%;
+    }
+
+    .news{
+        height: 1000px;
+    }
+
+    .new_inside{
+        width: 90%;
+        margin: 0 auto;
+        height: 80%;
+    }
+
+    .new_content a{
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 512px){
+
+    .new_title{
+        margin-bottom: 50px;
+        font-size: 32px;
+    }
+
+    .new_title::before{
+        display: none;
+    }
+
+    .new_content p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .on1 div p{
+        line-height: 1.4;
+        margin-bottom: 30px;
+        color: white;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .header_lower h1{
+        font-size: 20px;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 484px){
+
+    .news{
+        height: 850px;
+    }
+
+    .new_inside{
+        width: 90%;
+        margin: 0 auto;
+        height: 90%;
+    }
+
+    ::-webkit-input-placeholder {font-size: 16px;}
+
+    .on1 h1{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .on1 h1::before,
+    .on1 h1::after
+    {
+        display: none;
+    }
+
+    .register_container{
+        width: 80%;
+        top: 10%;
+        left: 10%;
+    }
+
+    .register{
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 468px){
+
+    .team_title{
+        position: absolute;
+        width: 70%;
+        left: 15%;
+        top: 10%;
+        text-align: center;
+    }
+
+    .team_title h1{
+        font-size: 28px;
+    }
+
+    .footer_inner1{
+        width: 45%;
+    }
+    
+    .footer_inner3{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:436px){
+
+    .on{
+        height: 175vh;
+    }
+
+    .header_lower h1{
+        font-size: 18px;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:420px){
+
+    .on{
+        height: 180vh;
+    }
+
+    .new_content p{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .navbar-brand h1{
+        color: white;
+        margin: 0px;
+        font-size: 30px;
+    }
+    
+    .navbar-brand P{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        margin: 0px;
+        letter-spacing: 3px;
+        position: relative;
+    }
+
+    .navbar-brand P::before{
+        display: none;
+    }
+
+    .navbar-brand P::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:412px){
+
+    .footer_inner1{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .footer_inner3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        height: 460px;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        padding-bottom: 30px;
+    }
+
+    .footer_inner1 ul li::before{
+        display: none;
+    }
+}
+
+@media screen and (max-width:388px){
+
+    .on{
+        height: 190vh;
+    }
+
+    .header_lower h1{
+        font-size: 16px;
+    }
+    
+    .header_lower h1:first-child{
+        font-size: 18px;
     }
 }
