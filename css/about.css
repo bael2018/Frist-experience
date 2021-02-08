@@ -241,7 +241,7 @@ main{
     text-align: center;
     height: 676px;
     padding-top: 50px;
-    background: url('../img/about.jpg') center / cover fixed;
+    background: url('../img/about2.jpg') center / cover fixed;
     position: relative;
     width: 100%;
 }
@@ -1216,6 +1216,10 @@ footer{
 
 @media screen and (max-width:924px){
 
+    .on{
+        height: 700px;
+    }
+
     .header_lower h1{
         color: white;
     }
@@ -1321,6 +1325,13 @@ footer{
     }
 }
 
+@media screen and (max-width:888px){
+
+    .on{
+        height: 750px;
+    }
+}
+
 @media screen and (max-width:830px){
 
     .slide_content{
@@ -1361,9 +1372,13 @@ footer{
 
 @media screen and (max-width:800px){
 
+    .on{
+        height: 750px;
+    }
+
     .on1 div p{
         line-height: 1.4;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .dropdown-item{
@@ -1378,6 +1393,10 @@ footer{
 }
 
 @media screen and (max-width:732px){
+
+    .on{
+        height: 780px;
+    }
 
     .input1{
         width: 100%;
@@ -1423,14 +1442,32 @@ footer{
     }
 }
 
+@media screen and (max-width:708px){
+
+    .on{
+        height: 800px;
+    }
+
+    footer{
+        padding-top: 50px !important;
+    }
+}
+
+@media screen and (max-width:680px){
+
+    .on{
+        height: 820px;
+    }
+}
+
 @media screen and (max-width:668px){
 
     .on1 div p{
-        line-height: 1.4;
+        line-height: 1.5;
         margin-bottom: 30px;
         color: white;
-        font-weight: 300;
-        font-size: 14px;
+        font-weight: 400;
+        font-size: 15px;
     }
 
     .header_lower h1{
@@ -1445,6 +1482,10 @@ footer{
 
 @media screen and (max-width: 623px){
 
+    .on{
+        height: 850px;
+    }
+
     .dropdown-item{
         font-size: 12px;
         padding: 10px 15px; 
@@ -1452,6 +1493,10 @@ footer{
 }
 
 @media screen and (max-width:610px){
+
+    .on{
+        height: 880px;
+    }
 
     .news{
         width: 100%;
@@ -1488,6 +1533,10 @@ footer{
 
 @media screen and (max-width: 584px){
 
+    .on{
+        height: 900px;
+    }
+
     .dropdown-item{
         font-size: 11px;
         padding: 10px 15px; 
@@ -1520,6 +1569,13 @@ footer{
     }
 }
 
+@media screen and (max-width: 556px){
+
+    .on{
+        height: 940px;
+    }
+}
+
 @media screen and (max-width: 544px){
 
     .dropdown-item{
@@ -1533,6 +1589,15 @@ footer{
 }
 
 @media screen and (max-width: 528px){
+
+    .footer_inner3{
+        width: 45%;
+    }
+
+    footer{
+        padding-top: 50px !important;
+        padding-left: 0px;
+    }
 
     .team_title h1{
         font-size: 30px;
@@ -1587,6 +1652,10 @@ footer{
 
 @media screen and (max-width: 512px){
 
+    .on{
+        height: 980px;
+    }
+
     .new_title{
         margin-bottom: 50px;
         font-size: 32px;
@@ -1609,7 +1678,7 @@ footer{
         margin-bottom: 30px;
         color: white;
         font-weight: 300;
-        font-size: 13px;
+        font-size: 15px;
     }
 
     .header_lower h1{
@@ -1659,6 +1728,10 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    .triple{
+        height: 280px;
+    }
+
     .team_title{
         position: absolute;
         width: 70%;
@@ -1680,7 +1753,18 @@ footer{
     }
 }
 
+@media screen and (max-width:444px){
+
+    .on{
+        height: 1020px;
+    }
+}
+
 @media screen and (max-width:436px){
+
+    .on{
+        height: 1040px;
+    }
 
     .header_lower h1{
         font-size: 18px;
@@ -1692,6 +1776,10 @@ footer{
 }
 
 @media screen and (max-width:420px){
+
+    .on{
+        height: 1070px;
+    }
 
     .triple{
         width: 100%;
@@ -1746,6 +1834,10 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .on{
+        height: 1120px;
+    }
+
     .footer_inner1{
         width: 100%;
         text-align: center;
@@ -1775,11 +1867,22 @@ footer{
 
 @media screen and (max-width:388px){
 
+    .on{
+        height: 1150px;
+    }
+
     .header_lower h1{
         font-size: 16px;
     }
     
     .header_lower h1:first-child{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:380px){
+
+    .on{
+        height: 1200px;
     }
 }
