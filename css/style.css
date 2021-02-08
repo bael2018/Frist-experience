@@ -223,7 +223,7 @@ main{
     font-weight: 300;
     color: black;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     position: relative;
 }
 
@@ -236,8 +236,8 @@ main{
 }
 
 .triple_inner2{
-    margin: 50px 0px;
-    margin-top: 30px;
+    margin: 40px 0px;
+    margin-bottom: 60px;
 }
 
 .triple_inner2 h1{
@@ -496,8 +496,8 @@ main{
 .team_block{
     position: absolute;
     height: 57%;
-    width: 80%;
-    left: 10%;
+    width: 90%;
+    left: 5%;
     bottom: 14%;
 }
 
@@ -1649,8 +1649,8 @@ footer{
         width: 90%;
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         height: 230px;
-        flex-direction: column;
         justify-content: center;
         overflow: hidden;
     }
@@ -1735,7 +1735,7 @@ footer{
     }
 
     .on{
-        height: 100vh;
+        height: 165vh;
     }
 }
 
@@ -1782,10 +1782,10 @@ footer{
 
     .team_block{
         position: absolute;
-        height: 60%;
-        width: 60%;
-        left: 20%;
-        bottom: 13%;
+        height: 70%;
+        width: 75%;
+        left: 12.5%;
+        bottom: 6%;
     }
 
     .news{
@@ -1902,7 +1902,7 @@ footer{
 @media screen and (max-width:436px){
 
     .on{
-        height: 120vh;
+        height: 175vh;
     }
 
     .header_lower h1{
@@ -1917,7 +1917,7 @@ footer{
 @media screen and (max-width:420px){
 
     .on{
-        height: 150vh;
+        height: 180vh;
     }
 
     .new_content p{
