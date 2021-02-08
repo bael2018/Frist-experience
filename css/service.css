@@ -11,14 +11,11 @@ body{
 header{
     width: 100%;
     overflow: hidden;
-    height: 90vh;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
 }
 
 .nav_container{
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100%;
     justify-content: space-between;
@@ -185,220 +182,81 @@ header{
 
 main{
     width: 100%;
-    margin-top: 100px;
-}
-
-/* about */
-
-.about{
-    width: 100%;
-    height: 100vh;
-}
-
-/* team */
-
-.team_container{
-    width: 100%;
-    position: relative;
-    height: 120vh;
-    padding-bottom: 50px;
-    background: url('../img/team_banner.jpg') center / cover;
-}
-
-.team_container::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.team_block{
-    position: absolute;
-    height: 50%;
-    width: 80%;
-    left: 10%;
-    bottom: 20%;
-}
-
-.team_title{
-    position: absolute;
-    width: 30%;
-    left: 35%;
-    top: 10%;
-    text-align: center;
-}
-
-.team_title h1{
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    position: relative;
-}
-
-.team_title h1::before{
-    content: "";
-    position: absolute;
-    bottom: -23px;
-    left: 45%;
-    width: 70px;
-    background: white;
-    height: 4px;
-}
-
-.team_title h1::after{
-    content: "";
-    position: absolute;
-    bottom: -13px;
-    left: 40%;
-    width: 70px;
-    background: rgb(17, 127, 252);
-    height: 4px;
-}
-
-.swiper-container{
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide{
-    text-align: center;
-    font-size: 18px;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    background: white;
-}
-
-.swiper-slide:hover .team_banner img{
-    transform: scale(1.1);
-}
-
-.slide_content{
-    position: absolute;
-    height: 25%;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-}
-
-.slide_inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 19;
-}
-
-.slide_inner div{
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.slide_inner::before{
-    content: "";
-    position: absolute;
-    background: rgb(17, 127, 252);
-    clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    z-index: 5;
-    left: 0;
-}
-
-.slide_inner h4{
-    color: rgb(255, 255, 255);
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.slide_inner p{
-    color: rgb(255, 255, 255);
-    margin-top: 5px;
-    font-size: 15px;
-    font-weight: 300;
-}
-
-.team_banner{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 75%;
-    overflow: hidden;
-}
-
-.team_banner img{
-    width: 100%;
-    height: 100%;
-    transition: .4s;
+    margin-top: 50px;
 }
 
 /* news */
 
-.news{
-    width: 100%;
-    height: 100vh;
+.nsh{
+    width: 85%;
+    margin: 0 auto;
 }
 
-.nsh{
-    padding: 50px 50px;
-}
 .bloks{
-    padding: 50px 0;
+    width: 100%;
+    margin-bottom: 35px;
 }
 .bloks p{
-    
     text-align: justify;
     margin: 0;
     padding-bottom: 10px;
 }
-.ll .imgh{
-    margin-right: 40px;
+
+.imgh{
+    width: 38%;
+    padding-top: 20px;
 }
-.rr .imgh{
-    margin-left: 40px;
+
+.imgh3{
+    text-align: right;
 }
+
+.imgh2{
+    width: 60%;
+    padding-top: 15px;
+}
+
+.imgh4 img{
+    margin-left: 44px;
+}
+
+.imgh2 h2{
+    color: rgb(70, 70, 70);
+}
+
+.imgh2 p{
+    line-height: 1.5;
+}
+
+.imgh3 p{
+    text-align: right;
+}
+
 .imgh img{
     border-radius: 5px;
+    width: 90%;
+    height: 90%;
 }
 
 .bl1{
     display: flex;
+    height: 280px;
+    width: 100%;
+    justify-content: space-between;
 }
+
 .h11{
-    font-weight: 300;
+    font-weight: 600;
+    margin-bottom: 50px;
     text-align: center;
 }
-.bloks h2{
-    font-weight: 400;
-}
+
 
 /* footer */
 
 footer{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     background: rgb(17, 127, 252);
     padding-top: 40px;
 }

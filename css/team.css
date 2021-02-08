@@ -10,13 +10,11 @@ body{
 header{
     width: 100%;
     overflow: hidden;
-    height: 100vh;
     position: relative;
-    background: url('../img/gif.gif') center / cover fixed;
 }
 
 .nav_container{
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100%;
     justify-content: space-between;
@@ -202,478 +200,78 @@ header{
 
 main{
     width: 100%;
+    margin-top: 50px;
 }
 
-.triple{
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.triple div{
-    width: 50%;
-    height: 100%;
-    text-align: center;
-}
-
-.triple_inner1 p{
-    line-height: 1.5;
-    width: 80%;
-    font-weight: 300;
-    color: black;
-    margin: 0 auto;
-    margin-top: 70px;
-    position: relative;
-}
-
-.triple_inner2 p{
-    color: rgb(36, 36, 36);
-    font-size: 17px;
-    margin: 0px;
-    letter-spacing: 3px;
-    position: relative;
-}
-
-.triple_inner2 h1{
-    line-height: 1.5;
-    width: 80%;
-    font-weight: 300;
-    color: rgb(53, 53, 53);
-    margin: 0 auto;
-    margin-top: 60px;
-    font-weight: 500;
-    font-size: 45px;
-}
-
-.triple_inner2 P::after{
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 45%;
-    width: 10%;
-    background: rgb(17, 127, 252);
-    height: 3px;
-}
-
-.on{
-    color: white;
-    text-align: center;
-    height: 105vh;
-    padding-top: 40px;
-    background: url('../img/about.jpg') center / cover fixed;
-    position: relative;
-    width: 100%;
-}
-.on:before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
-.ond{
-    z-index: 2;
-    position: absolute;
-    width: 90%;
-    left: 5%;
-}
-.on h1{
-    font-weight: 500;
-    font-size: 45px;
-    margin-bottom: 60px;
-    position: relative;
-}
-
-.on h1::before{
-    content: "";
-    position: absolute;
-    bottom: -23px;
-    left: 49%;
-    width: 70px;
-    background: rgb(17, 127, 252);
-    height: 4px;
-}
-
-.on h1::after{
-    content: "";
-    position: absolute;
-    bottom: -13px;
-    left: 46%;
-    width: 70px;
-    background: rgb(255, 255, 255);
-    height: 4px;
-}
-
-.next{
-    background: rgb(17, 127, 252);
-    padding: 8px 25px;
-    outline: none;
-    border: none;
-    color: white;
-    transition: .3s;
-}
-
-.next:hover{
-    background: rgb(61, 61, 61);
-}
-.ss{
-    font-size: 25px;
-}
-.on1{
+.nsh{
     width: 90%;
     margin: 0 auto;
 }
-
-.on1 div p{
-    line-height: 1.7;
-    margin-bottom: 30px;
-    color: white;
-    font-weight: 300;
-}
-
 .bloks{
-    padding: 50px 100px;
+    padding: 50px 0;
 }
-.bloksu{
+.bloks p{
+    text-align: justify;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.ll .imgh{
+    margin-right: 40px;
+}
+.rr .imgh{
+    margin-left: 40px;
+}
+.imgh img{
+    border-radius: 5px;
+}
+
+.bl1{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
 }
-.bloksu div{
-    width: 550px;
-    height: auto;
-    padding: 10px;
-    margin-bottom: 50px;
-    position: relative;
-}
-
-.bloksu div:hover h1{
-    margin-left: 35px;
-}
-.bloksu  h1{
-    font-weight: 500;
-    font-size: 40px;
-    color: rgb(95, 187, 240);
-    position: relative;
-    transition: .2s;
-}
-
-.bloksu  div::before{
-    content: "";
-    position: absolute;
-    background:rgb(95, 187, 240);
-    width: 20px;
-    height: 20px;
-    top: 25px;
-    left: 9px;
-    opacity: 0;
-}
-
-.bloksu div:hover::before{
-    opacity: 1;
-    transition: .4s;
-
-    animation: circle 2s linear infinite alternate;
-}
-
-@keyframes circle{
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-.bloksu p{
-    color: rgb(66, 66, 66);
-    line-height: 1.5;
-}
-
 .h11{
     font-weight: 500;
     text-align: center;
-    color: rgb(63, 63, 63);
-    margin-bottom: 40px;
+    color: rgb(73, 73, 73);
+}
+.bloks h2{
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
-/* about
-
-.about{
-    width: 100%;
-    height: 100vh;
+.rp{
+    margin-top: 20px;
 }
 
-/* team */
-
-.team_container{
-    width: 100%;
-    position: relative;
-    height: 120vh;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    background: url('../img/team_banner.jpg') center / cover;
+.rp1{
+    text-align: right;
 }
 
-.team_container::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+.rp span a{
+    color: rgb(17, 127, 252);
+    margin: 10px;
+    font-size: 30px;
+    border: 2px solid rgb(17, 127, 252);
+    padding: 2px 7px;
+    transition: .3s;
 }
 
-.team_block{
-    position: absolute;
-    height: 50%;
-    width: 80%;
-    left: 10%;
-    bottom: 20%;
+.lp span a{
+    color: rgb(17, 127, 252);
+    margin: 10px;
+    font-size: 30px;
+    border: 2px solid rgb(17, 127, 252);
+    padding: 2px 7px;
+    transition: .3s;
 }
 
-.team_title{
-    position: absolute;
-    width: 30%;
-    left: 35%;
-    top: 10%;
-    text-align: center;
-}
-
-.team_title h1{
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    position: relative;
-}
-
-.team_title h1::before{
-    content: "";
-    position: absolute;
-    bottom: -23px;
-    left: 45%;
-    width: 70px;
-    background: white;
-    height: 4px;
-}
-
-.team_title h1::after{
-    content: "";
-    position: absolute;
-    bottom: -13px;
-    left: 40%;
-    width: 70px;
-    background: rgb(17, 127, 252);
-    height: 4px;
-}
-
-.swiper-container{
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide{
-    text-align: center;
-    font-size: 18px;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    background: white;
-}
-
-.swiper-slide:hover .team_banner img{
-    transform: scale(1.1);
-}
-
-.slide_content{
-    position: absolute;
-    height: 25%;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-}
-
-.slide_inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 19;
-}
-
-.slide_inner div{
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.slide_inner::before{
-    content: "";
-    position: absolute;
-    background: rgb(17, 127, 252);
-    clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    z-index: 5;
-    left: 0;
-}
-
-.slide_inner h4{
-    color: rgb(255, 255, 255);
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.slide_inner p{
-    color: rgb(255, 255, 255);
-    margin-top: 5px;
-    font-size: 15px;
-    font-weight: 300;
-}
-
-.team_banner{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 75%;
-    overflow: hidden;
-}
-
-.team_banner img{
-    width: 100%;
-    height: 100%;
-    transition: .4s;
-}
-
-/* news */
-
-.register{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
-.register_image{
-    position: absolute; 
-    background: rgb(17, 127, 252);
-    clip-path: polygon(100% 0, 100% 100%, 0% 100%);
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-}
-
-.dropdown-item{
-    padding: 10px 15px; 
-}
-
-.dropdown-item:hover{ 
+.lp span a:hover{
     background: rgb(17, 127, 252);
     color: white;
 }
 
-.register_container{
-    position: absolute;
-    width: 70%;
-    top: 10%;
-    left: 15%;
-    padding: 25px;
-    border-radius: 5px;
-    transition: .3s;
-    box-shadow: 0px 0px 15px rgb(88, 88, 88);
-    z-index: 5;
-}
-
-.input1{
-    width: 49%;
-    padding: 8px 15px;
-    outline: none;
-    background: none;
-    border: 2px solid rgb(206, 206, 206);
-    border-radius: 3px;
-    margin-bottom: 20px;
-    transition: .4s
-}
-
-.input1:focus{
-    border: 2px solid rgb(110, 110, 110);
-}
-
-.input2{
-    margin-left: 1.5% !important;
-}
-
-.sub{
-    width: 100%;
-    padding: 11px 0px;
-    margin-bottom: 20px;
-    outline: none;
-    background: none;
-    border-radius: 3px;
-    border: 2px solid rgb(206, 206, 206);
-    color: grey;
-    transition: .4s
-}
-
-.sub:focus{
-    border: 2px solid rgb(110, 110, 110);
-    outline: none;
-}
-
-.register_container textarea{
-    width: 100%;
-    transition: .4s;
-    padding: 8px 15px;
-    outline: none;
-    background: none;
-    border: 2px solid rgb(206, 206, 206);
-    border-radius: 3px;
-    margin-bottom: 20px;
-}
-
-.register_container textarea:focus{
-    border: 2px solid rgb(110, 110, 110);
-}
-
-.dropdown-menu{
-    width: 100%;
-}
-
-.register_container .sub2{
-    width: 100%;
-    background: none;
-    padding: 10px 0;
+.rp span a:hover{
+    background: rgb(17, 127, 252);
     color: white;
-    cursor: pointer;
-    outline: none;
-    border: 2px solid rgb(206, 206, 206);
-    transition: .3s;
-    border-radius: 3px;
-}
-
-.register_container .sub2:hover{
-    border: 2px solid rgb(0, 0, 0);
-    background: #000;
 }
 
 /* footer */
@@ -682,6 +280,7 @@ footer{
     width: 100%;
     background: rgb(17, 127, 252);
     padding-top: 40px;
+    margin-top: 70px;
 }
 
 .footer_container{
