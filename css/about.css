@@ -1326,3 +1326,10 @@ footer{
         padding-bottom: 20px;
     }
 }
+
+@media screen and (max-width:365px){
+
+    .on{
+        height: 1250px;
+    }
+}
