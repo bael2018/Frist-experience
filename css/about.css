@@ -312,179 +312,6 @@ main{
     background: rgb(61, 61, 61);
 }
 
-/* about */
-
-.about{
-    width: 100%;
-    height: 100vh;
-}
-
-/* team */
-
-.team_container{
-    width: 100%;
-    position: relative;
-    height: 120vh;
-    padding-bottom: 50px;
-    background: url('../img/team_banner.jpg') center / cover;
-}
-
-.team_container::before{
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.7);
-}
-
-.team_block{
-    position: absolute;
-    height: 50%;
-    width: 80%;
-    left: 10%;
-    bottom: 20%;
-}
-
-.team_title{
-    position: absolute;
-    width: 30%;
-    left: 35%;
-    top: 10%;
-    text-align: center;
-}
-
-.team_title h1{
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    position: relative;
-}
-
-.team_title h1::before{
-    content: "";
-    position: absolute;
-    bottom: -23px;
-    left: 45%;
-    width: 70px;
-    background: white;
-    height: 4px;
-}
-
-.team_title h1::after{
-    content: "";
-    position: absolute;
-    bottom: -13px;
-    left: 40%;
-    width: 70px;
-    background: rgb(17, 127, 252);
-    height: 4px;
-}
-
-.swiper-container{
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide{
-    text-align: center;
-    font-size: 18px;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    cursor: pointer;
-    position: relative;
-    background: white;
-}
-
-.swiper-slide:hover .team_banner img{
-    transform: scale(1.1);
-}
-
-.slide_content{
-    position: absolute;
-    height: 25%;
-    text-align: center;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-}
-
-.slide_inner{
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 19;
-}
-
-.slide_inner div{
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.slide_inner::before{
-    content: "";
-    position: absolute;
-    background: rgb(17, 127, 252);
-    clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    z-index: 5;
-    left: 0;
-}
-
-.slide_inner h4{
-    color: rgb(255, 255, 255);
-    margin-top: 10px;
-    font-size: 20px;
-}
-
-.slide_inner p{
-    color: rgb(255, 255, 255);
-    margin-top: 5px;
-    font-size: 15px;
-    font-weight: 300;
-}
-
-.team_banner{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 75%;
-    overflow: hidden;
-}
-
-.team_banner img{
-    width: 100%;
-    height: 100%;
-    transition: .4s;
-}
-
-/* news */
-
-.news{
-    width: 100%;
-    height: 100vh;
-}
-
 /* footer */
 
 footer{
@@ -763,31 +590,11 @@ footer{
     }
 }
 
-@media screen and (max-width:1326px){
-
-    .register{
-        width: 100%;
-        height: 135vh;
-        position: relative;
-    }
-
-    .team_container{
-        height: 140vh;
-    }
-}
-
 @media screen and (max-width:1266px){
 
     .input1{
         width: 48.7%;
 
-    }
-
-    .new_content p{
-        margin: 0 auto;
-        margin-bottom: 25px;
-        font-size: 15px;
-        line-height: 1.6;
     }
 }
 
@@ -796,27 +603,9 @@ footer{
     .input1{
         width: 48.8%;
     }
-
-    .new_content p{
-        font-weight: 300;
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 25px;
-        font-size: 15px;
-        line-height: 1.6;
-    }
 }
 
 @media screen and (max-width:1184px){
-
-    .new_content p{
-        font-weight: 300;
-        width: 95%;
-        margin: 0 auto;
-        margin-bottom: 25px;
-        font-size: 15px;
-        line-height: 1.6;
-    }
 
     .nav-item a{
         font-size: 15px;
@@ -844,19 +633,6 @@ footer{
         font-size: 14px;
         line-height: 1.4;
     }
-
-    .new_content{
-        padding-top: 20px;
-    }
-
-    .news{
-        height: 500px;
-    }
-
-    .team_container{
-        height: 115vh;
-    }
-
 }
 
 @media screen and (max-width:1100px){
@@ -872,17 +648,6 @@ footer{
     
     .header_lower h1:first-child{
         font-size: 38px;
-    }
-
-    .bloksu  h1{
-        font-size: 35px;
-    }
-
-    .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 25px;
-        left: 10px;
     }
 
     .footer_inner2 a h1{
@@ -907,18 +672,9 @@ footer{
         font-size: 26px;
     }
 
-    .register{
-        width: 100%;
-        height: 100vh;
-    }
-
     .input1{
         padding: 6px 15px;
         margin-bottom: 20px;
-    }
-
-    .register_container{
-        top: 2%;
     }
 
     .sub{
@@ -927,22 +683,9 @@ footer{
         margin-bottom: 20px;
         font-size: 19px;
     }
-
-    .register_container textarea{
-        width: 100%;
-        transition: .4s;
-        padding: 8px 15px;
-        height: 200px;
-        margin-bottom: 20px;
-    }
-    
     footer{
         width: 100%;
-        padding-top: 100px !important;
-    }
-
-    .bloks{
-        padding: 50px 70px;
+        padding-top: 50px !important;
     }
 }
 
@@ -971,46 +714,6 @@ footer{
 
 @media screen and (max-width:1034px){
 
-    .team_title{
-        position: absolute;
-        width: 30%;
-        left: 35%;
-        top: 10%;
-        text-align: center;
-    }
-    
-    .team_title h1{
-        font-size: 35px;
-    }
-
-    .team_title h1::before{
-        bottom: -23px;
-        left: 45%;
-        width: 50px;
-        height: 4px;
-    }
-    
-    .team_title h1::after{
-        bottom: -13px;
-        left: 40%;
-        width: 50px;
-        height: 4px;
-    }
-    
-    .slide_inner h4{
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    
-    .slide_inner p{
-        margin-top: 5px;
-        font-size: 14px;
-    }
-
-    .new_inside .new_inner{
-        width: 32%;
-    }
-
     .footer_container{
         width: 90%;
         margin: 0 auto;
@@ -1020,10 +723,6 @@ footer{
         overflow: hidden;
     }
 
-    .bloksu div p{
-        font-size: 15px;
-    }
-
     .on1 h1{
         font-size: 38px;
     }
@@ -1031,11 +730,6 @@ footer{
     .h11{
         font-size: 38px;
     }
-
-    .team_container{
-        height: 120vh;
-    }
-
     .navbar-brand h1{
         color: white;
         margin: 0px;
@@ -1061,57 +755,9 @@ footer{
     .on1 div p{
         line-height: 1.4;
     }
-
-    .news{
-        height: 530px;
-    }
 }
 
 @media screen and (max-width:990px){
-
-    .new_banner img{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .new_inside{
-        width: 80%;
-        margin: 0 auto;
-        height: 85%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .new_banner{
-        height: 100% !important;
-        width: 100%;
-        overflow: hidden;
-    }
-    
-    .new_content{
-        padding-top: 0px;
-        height: 100%;
-        align-items: center;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-    }
-
-    .news{
-        height: 1000px;
-    }
-
-    .new_inside .new_inner{
-        width: 100%;
-        margin: 0 auto;
-        margin-bottom: 50px;
-        display: flex;
-        justify-content: space-between;
-        border-radius: 5px;
-        box-shadow: 0px 0px 5px rgb(219, 219, 219);
-    }
 
     .navbar-brand{
         margin-left: 27px;
@@ -1139,13 +785,6 @@ footer{
         margin: 0px;
         letter-spacing: 3px;
         position: relative;
-    }
-
-    .bloksu div{
-        width: 48%;
-        height: auto;
-        padding: 0px 10px;
-        margin-bottom: 25px;
     }
 
     .dropdown-item{
@@ -1228,19 +867,6 @@ footer{
         font-size: 33px;
     }
 
-    .slide_inner h4{
-        color: rgb(255, 255, 255);
-        margin-top: 10px;
-        font-size: 18px;
-    }
-    
-    .slide_inner p{
-        color: rgb(255, 255, 255);
-        margin-top: 5px;
-        font-size: 14px;
-        font-weight: 300;
-    }
-
     .footer_inner2 a p:nth-child(3){
         font-size: 13px;
         margin-top: 20px;
@@ -1250,27 +876,6 @@ footer{
 
 @media screen and (max-width:910px){
 
-    .team_title{
-        position: absolute;
-        width: 50%;
-        left: 25%;
-        top: 10%;
-        text-align: center;
-    }
-    
-    .team_title h1{
-        font-size: 34px;
-    }
-    
-    .slide_inner h4{
-        margin-top: 10px;
-        font-size: 15px;
-    }
-    
-    .slide_inner p{
-        margin-top: 5px;
-        font-size: 14px;
-    }
 
     .triple_inner1 p{
         line-height: 1.5;
@@ -1293,35 +898,9 @@ footer{
         font-size: 40px;
     }
 
-    .new_content p{
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        font-size: 15px;
-        line-height: 1.4;
-    }
-
     .dropdown-item{
         font-size: 14px;
         padding: 10px 15px; 
-    }
-
-    .bloksu  h1{
-        font-size: 31px;
-    }
-
-    .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 12px;
-        left: 10px;
-    }
-
-    .bloksu div{
-        width: 750px;
-        height: auto;
-        padding: 0px 10px;
-        margin-bottom: 50px;
     }
 }
 
@@ -1334,22 +913,6 @@ footer{
 
 @media screen and (max-width:830px){
 
-    .slide_content{
-        width: 95%;
-        height: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .team_block{
-        position: absolute;
-        height: 60%;
-        width: 80%;
-        left: 10%;
-        bottom: 13%;
-    }
-
     .hide{
         display: none;
     }
@@ -1357,15 +920,6 @@ footer{
     .slide_inner{
         width:48%;
         height: 100%;
-    }
-    
-    .slide_lower .slide_obs h4{
-        margin-top: 10px;
-        font-size: 20px;
-    }
-    
-    .slide_lower .slide_obs p{
-        margin-top: 10px;
     }
 }
 
@@ -1511,23 +1065,8 @@ footer{
         font-size: 27px;
     }
 
-    .new_inside{
-        width: 90%;
-        margin: 0 auto;
-        height: 85%;
-    }
-
     .sub{
         font-size: 17px;
-    }
-}
-
-@media screen and (max-width:610px){
-
-    .slide_content{
-        width: 100%;
-        height: 90%;
-        margin: 0 auto;
     }
 }
 
@@ -1582,10 +1121,6 @@ footer{
         font-size: 10px;
         padding: 10px 15px; 
     }
-
-    .bloks{
-        padding: 50px 40px;
-    }
 }
 
 @media screen and (max-width: 528px){
@@ -1607,46 +1142,8 @@ footer{
         font-size: 32px;
     }
 
-    .bloksu  h1{
-        font-size: 28px;
-    }
-
-    .bloksu  div::before{
-        width: 13px;
-        height: 13px;
-        top: 12px;
-        left: 14px;
-    }
     .hide1{
         display: none;
-    }
-
-    .slide_inner{
-        width: 100%;
-        height: 100%;
-    }
-
-    .team_block{
-        position: absolute;
-        height: 70%;
-        width: 75%;
-        left: 12.5%;
-        bottom: 6%;
-    }
-
-    .news{
-        height: 1000px;
-    }
-
-    .new_inside{
-        width: 90%;
-        margin: 0 auto;
-        height: 80%;
-    }
-
-    .new_content a{
-        padding: 6px 15px;
-        font-size: 13px;
     }
 }
 
@@ -1654,23 +1151,6 @@ footer{
 
     .on{
         height: 980px;
-    }
-
-    .new_title{
-        margin-bottom: 50px;
-        font-size: 32px;
-    }
-
-    .new_title::before{
-        display: none;
-    }
-
-    .new_content p{
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        font-size: 14px;
-        line-height: 1.4;
     }
 
     .on1 div p{
@@ -1763,14 +1243,6 @@ footer{
     
     .triple_inner2 h1{
         margin-top: 0px !important;
-    }
-
-    .new_content p{
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 20px;
-        font-size: 13px;
-        line-height: 1.3;
     }
 
     .navbar-brand h1{
