@@ -223,7 +223,9 @@ main{
 }
 
 .imgh2 h2{
-    color: rgb(70, 70, 70);
+    color: rgb(17, 127, 252);
+    font-size: 35px;
+    margin-bottom: 20PX;
 }
 
 .imgh2 p{
@@ -444,6 +446,7 @@ footer{
 }
 
 /* Адаптация */
+
 
 @media screen and (max-width:1100px){
     
@@ -1000,16 +1003,26 @@ footer{
         flex-wrap: wrap;
         justify-content: space-between;
         margin-bottom: 50px;
-        height: 450px;
+        height: 550px;
     }
     
     .imgh2 p{
         line-height: 1.5;
         font-size: 14px;
+        text-align: center;
+    }
+
+    .imgh2{
+        width: 100%;
+        order: 2;
+        text-align: center;
+        margin: 0px !important;
+        padding: 0px;
     }
 
     .imgh4{
         margin-left: 40px;
+        order: 1;
     }
 
     .imgh3{
@@ -1021,6 +1034,11 @@ footer{
         margin-bottom: 45px;
     }
 
+    .h11{
+        font-size: 38px;
+        margin-bottom: 80px;
+    }
+
     .imgh img{
         border-radius: 5px;
         width: 100%;
@@ -1028,7 +1046,9 @@ footer{
     }
 
     .imgh{
-        width: 40%;
+        width: 80%;
+        height: 320px;
+        margin: 0 auto;
         padding-top: 0px;
     }
 
@@ -1350,6 +1370,28 @@ footer{
     .on{
         height: 165vh;
     }
+
+    .imgh2 h2{
+        color: rgb(17, 127, 252);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .imgh2{
+        padding-top: 20px;
+    }
+
+    .bl1{
+        width: 100%;
+        height: 460px;
+    }
+
+    .imgh{
+        width: 80%;
+        height: 230px;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
 }
 
 @media screen and (max-width: 544px){
@@ -1361,6 +1403,10 @@ footer{
 }
 
 @media screen and (max-width: 528px){
+
+    .footer_inner3{
+        width: 45%;
+    }
 
     .team_title h1{
         font-size: 30px;
@@ -1487,6 +1533,14 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    footer{
+        padding-top: 50px !important;
+    }
+
+    .bl1{
+        margin-bottom: 60px;
+    }
+
     .team_title{
         position: absolute;
         width: 70%;
@@ -1524,6 +1578,10 @@ footer{
 }
 
 @media screen and (max-width:420px){
+
+    .bl1{
+        margin-bottom: 100px;
+    }
 
     .on{
         height: 180vh;

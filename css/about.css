@@ -1690,42 +1690,6 @@ footer{
     }
 }
 
-@media screen and (max-width: 484px){
-
-    .news{
-        height: 850px;
-    }
-
-    .new_inside{
-        width: 90%;
-        margin: 0 auto;
-        height: 90%;
-    }
-
-    ::-webkit-input-placeholder {font-size: 16px;}
-
-    .on1 h1{
-        font-size: 32px;
-        margin-bottom: 25px;
-    }
-
-    .on1 h1::before,
-    .on1 h1::after
-    {
-        display: none;
-    }
-
-    .register_container{
-        width: 80%;
-        top: 10%;
-        left: 10%;
-    }
-
-    .register{
-        height: 110vh;
-    }
-}
-
 @media screen and (max-width: 468px){
 
     .triple{
@@ -1883,6 +1847,10 @@ footer{
 @media screen and (max-width:380px){
 
     .on{
-        height: 1200px;
+        height: 1220px;
+    }
+
+    .triple{
+        padding-bottom: 20px;
     }
 }
