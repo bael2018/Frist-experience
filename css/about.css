@@ -1219,7 +1219,7 @@ footer{
 @media screen and (max-width:436px){
 
     .on{
-        height: 1070px;
+        height: 1030px;
     }
 
     .header_lower h1{
@@ -1234,7 +1234,7 @@ footer{
 @media screen and (max-width:420px){
 
     .on{
-        height: 1090px;
+        height: 1050px;
     }
 
     .triple{
@@ -1283,7 +1283,7 @@ footer{
 @media screen and (max-width:412px){
 
     .on{
-        height: 1150px;
+        height: 1100px;
     }
 
     .footer_inner1{
@@ -1315,7 +1315,7 @@ footer{
 @media screen and (max-width:388px){
 
     .on{
-        height: 1200px;
+        height: 1150px;
     }
 
     .header_lower h1{
@@ -1330,7 +1330,7 @@ footer{
 @media screen and (max-width:380px){
 
     .on{
-        height: 1230px;
+        height: 1190px;
     }
 
     .triple{
@@ -1341,35 +1341,35 @@ footer{
 @media screen and (max-width:365px){
 
     .on{
-        height: 1250px;
+        height: 1220px;
     }
 }
 
-@media screen and (max-width:365px){
+@media screen and (max-width:356px){
 
     .on{
-        height: 1300px;
+        height: 1250px;
     }
 }
 
 @media screen and (max-width:344px){
 
     .on{
-        height: 1350px !important;
+        height: 1280px !important;
     }
 }
 
-@media screen and (max-width:330px){
+@media screen and (max-width:332px){
 
     .on{
-        height: 1400px !important;
+        height: 1330px !important;
     }
 }
 
 @media screen and (max-width:324px){
 
     .on{
-        height: 1450px !important;
+        height: 1400px !important;
     }
 
     .triple_inner1 p{
@@ -1399,20 +1399,20 @@ footer{
 @media screen and (max-width:308px){
 
     .on{
-        height: 1500px !important;
+        height: 1430px !important;
     }
 }
 
 @media screen and (max-width:298px){
 
     .on{
-        height: 1550px !important;
+        height: 1500px !important;
     }
 }
 
 @media screen and (max-width:290px){
 
     .on{
-        height: 1600px !important;
+        height: 1540px !important;
     }
 }
