@@ -324,7 +324,7 @@ footer{
     width: 90%;
     margin: 0 auto;
     display: flex;
-    height: 270px;
+    padding-bottom: 30px;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -718,7 +718,6 @@ footer{
         width: 90%;
         margin: 0 auto;
         display: flex;
-        height: 230px;
         justify-content: space-between;
         overflow: hidden;
     }
@@ -990,7 +989,6 @@ footer{
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        height: 230px;
         justify-content: center;
         overflow: hidden;
     }
@@ -1195,12 +1193,26 @@ footer{
     .footer_inner3{
         width: 40%;
     }
+
+    .on{
+        height: 1000px;
+    }
 }
 
 @media screen and (max-width:444px){
 
     .on{
         height: 1050px;
+    }
+
+    .on1 h1{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .on1 h1::before,
+    .on1 h1::after{
+        display: none;
     }
 }
 
@@ -1289,7 +1301,6 @@ footer{
         width: 90%;
         margin: 0 auto;
         display: flex;
-        height: 460px;
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
@@ -1331,5 +1342,77 @@ footer{
 
     .on{
         height: 1250px;
+    }
+}
+
+@media screen and (max-width:365px){
+
+    .on{
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width:344px){
+
+    .on{
+        height: 1350px !important;
+    }
+}
+
+@media screen and (max-width:330px){
+
+    .on{
+        height: 1400px !important;
+    }
+}
+
+@media screen and (max-width:324px){
+
+    .on{
+        height: 1450px !important;
+    }
+
+    .triple_inner1 p{
+        font-size: 13px;
+    }
+    
+    .triple_inner2 h1{
+        margin-top: 0px !important;
+        font-size: 33px;
+    }
+
+    .navbar-brand h1{
+        color: white;
+        margin: 0px;
+        font-size: 27px;
+    }
+    
+    .navbar-brand P{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        margin: 0px;
+        letter-spacing: 2px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width:308px){
+
+    .on{
+        height: 1500px !important;
+    }
+}
+
+@media screen and (max-width:298px){
+
+    .on{
+        height: 1550px !important;
+    }
+}
+
+@media screen and (max-width:290px){
+
+    .on{
+        height: 1600px !important;
     }
 }

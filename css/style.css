@@ -2197,16 +2197,6 @@ footer{
 
 @media screen and (max-width:411px){
 
-    .footer_inner1{
-        width: 45%;
-        padding-bottom: 50px;
-    }
-    
-    .footer_inner3{
-        width: 45%;
-        padding-bottom: 50px;
-    }
-
     .burder_links{
         margin-bottom: 17px;
     }
@@ -2503,6 +2493,12 @@ footer{
     .on{
         height: 1480px !important;
     }
+
+    .navbar-brand{
+        margin: 0px;
+        margin-left: 14px;
+    }
+
 }
 
 @media screen and (max-width: 280px){
