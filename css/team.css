@@ -752,6 +752,14 @@ footer{
 
 @media screen and (max-width:990px){
 
+    .nav-item a::before{
+        display: none;
+    }
+
+    .nav-item1 a::before{
+        display: block;
+    }
+
     .imgh{
         width: 100%;
         height: 330px;

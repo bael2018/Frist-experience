@@ -784,6 +784,14 @@ footer{
 
 @media screen and (max-width:990px){
 
+    .nav-item a::before{
+        display: none;
+    }
+
+    .nav-item1 a::before{
+        display: block;
+    }
+
     .navbar-brand{
         margin-left: 27px;
     }
