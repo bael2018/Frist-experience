@@ -1237,17 +1237,14 @@ footer{
 @media screen and (max-width:324px){
 
     .navbar-brand h1{
-        color: white;
         margin: 0px;
         font-size: 27px;
     }
     
     .navbar-brand P{
-        color: rgb(255, 255, 255);
         font-size: 13px;
         margin: 0px;
         letter-spacing: 2px;
-        position: relative;
     }
 
     .imgh2 h2{
