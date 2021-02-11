@@ -255,21 +255,20 @@ main{
     text-align: center;
 }
 
-
 /* footer */
 
 footer{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     background: rgb(17, 127, 252);
     padding-top: 40px;
 }
 
 .footer_container{
     width: 90%;
+    padding-bottom: 30px;
     margin: 0 auto;
     display: flex;
-    height: 270px;
     justify-content: space-between;
     overflow: hidden;
 }
@@ -633,7 +632,7 @@ footer{
     
     footer{
         width: 100%;
-        padding-top: 100px !important;
+        padding-top: 50px !important;
     }
 }
 
@@ -670,7 +669,6 @@ footer{
         width: 90%;
         margin: 0 auto;
         display: flex;
-        height: 230px;
         justify-content: space-between;
         overflow: hidden;
     }
@@ -848,8 +846,8 @@ footer{
     }
 
     .imgh{
-        width: 80%;
-        height: 320px;
+        width: 70%;
+        height: 300px;
         margin: 0 auto;
         padding-top: 0px;
     }
@@ -955,14 +953,13 @@ footer{
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        height: 230px;
         justify-content: center;
         overflow: hidden;
     }
 }
 
 @media screen and (max-width:668px){
-
+    
     .on1 div p{
         line-height: 1.4;
         margin-bottom: 30px;
@@ -978,6 +975,16 @@ footer{
     
     .header_lower h1:first-child{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width:645px){
+
+    .imgh{
+        width: 70%;
+        height: 270px;
+        margin: 0 auto;
+        padding-top: 0px;
     }
 }
 
@@ -1024,13 +1031,13 @@ footer{
     .bl1{
         width: 100%;
         height: 460px;
+        margin-bottom: 80px !important;
     }
 
     .imgh{
         width: 80%;
-        height: 230px;
+        height: 260px;
         margin: 0 auto;
-        padding-top: 0px;
     }
 }
 
@@ -1088,6 +1095,13 @@ footer{
 
 @media screen and (max-width: 484px){
 
+    .imgh{
+        width: 80%;
+        height: 230px;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
     .on1 h1{
         font-size: 32px;
         margin-bottom: 25px;
@@ -1137,7 +1151,7 @@ footer{
 @media screen and (max-width:420px){
 
     .bl1{
-        margin-bottom: 100px;
+        margin-bottom: 110px !important;
     }
 
     .on{
@@ -1184,7 +1198,6 @@ footer{
         width: 90%;
         margin: 0 auto;
         display: flex;
-        height: 460px;
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
@@ -1208,5 +1221,46 @@ footer{
     
     .header_lower h1:first-child{
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:370px){
+
+    .imgh{
+        width: 80%;
+        height: 200px;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+}
+
+@media screen and (max-width:324px){
+
+    .navbar-brand h1{
+        color: white;
+        margin: 0px;
+        font-size: 27px;
+    }
+    
+    .navbar-brand P{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        margin: 0px;
+        letter-spacing: 2px;
+        position: relative;
+    }
+
+    .imgh2 h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:300px){
+
+    .imgh{
+        width: 90%;
+        height: 190px;
+        margin: 0 auto;
+        padding-top: 0px;
     }
 }
