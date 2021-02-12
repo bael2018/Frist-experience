@@ -263,7 +263,7 @@ main{
 .on{
     color: white;
     text-align: center;
-    height: 676px;
+    height: 600px;
     padding-top: 40px;
     background: url('../img/about.jpg') center / cover fixed;
     position: relative;
@@ -355,13 +355,21 @@ main{
 .bloksu div{
     width: 48%;
     height: auto;
-    padding: 10px;
+    padding: 1.5rem;
     margin-bottom: 30px;
     position: relative;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 12px rgba(41, 41, 41, 0.2);
+    cursor: pointer;
+}
+
+.bloksu div:hover{
+    box-shadow: 0px 0px 15px rgba(41, 41, 41, 0.4);
 }
 
 .bloksu div:hover h1{
-    margin-left: 35px;
+    margin-left: 38px;
 }
 
 .bloksu h1{
@@ -378,8 +386,8 @@ main{
     background:rgb(95, 187, 240);
     width: 20px;
     height: 20px;
-    top: 25px;
-    left: 9px;
+    top: 39px;
+    left: 23px;
     opacity: 0;
 }
 
@@ -404,16 +412,31 @@ main{
 .h11{
     font-weight: 500;
     text-align: center;
-    color: rgb(63, 63, 63);
-    margin-bottom: 40px;
+    color: rgb(78, 78, 78);
+    margin-bottom: 60px;
+    position: relative;
 }
 
-/* about
-
-.about{
-    width: 100%;
-    height: 100vh;
+.h11::before{
+    content: "";
+    position: absolute;
+    left: 46%;
+    bottom: -15px;
+    height: 5px;
+    width: 60px;
+    background: rgb(95, 187, 240);
 }
+
+.h11::after{
+    content: "";
+    position: absolute;
+    left: 49%;
+    bottom: -25px;
+    height: 5px;
+    width: 60px;
+    background: rgb(83, 83, 83);
+}
+
 
 /* team */
 
@@ -423,7 +446,7 @@ main{
     height: 676px;
     padding-bottom: 50px;
     margin-bottom: 50px;
-    background: url('../img/team_banner.jpg') center / cover;
+    background: url('../img/team_banner.jpg') center / cover fixed;
 }
 
 .team_container::before{
@@ -619,6 +642,30 @@ main{
     position: relative;
 }
 
+.new_inner:hover .new_content::before{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    height: 100%;
+    width: 100%;
+}
+
+.new_inner:hover .new_content p{
+    color: white;
+}
+
+.new_inner:hover .new_content h4{
+    color: white;
+}
+
+.new_content div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.new_inner:hover .new_contentp{
+    color: white;
+}
+
 .new_content::before{
     position: absolute;
     content: "";
@@ -628,6 +675,7 @@ main{
     height: 30%;
     background: rgb(17, 127, 252);
     clip-path: polygon(0 40%, 0% 100%, 100% 100%);
+    transition: .4s;
 }
 
 .new_content p{
@@ -635,12 +683,14 @@ main{
     width: 90%;
     margin: 0 auto;
     line-height: 1.6;
+    transition: .5s;
 }
 
 .new_content h4{
     color: rgb(63, 63, 63);
     font-size: 18px;
     margin-bottom: 15px;
+    transition: .5s;
 }
 
 .new_banner img{
@@ -1032,7 +1082,7 @@ footer{
     }
 
     .new_content{
-        padding-top: 20px;
+        padding-top: 40px;
     }
 }
 
@@ -1056,10 +1106,10 @@ footer{
     }
 
     .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 25px;
-        left: 10px;
+        width: 16px;
+        height: 16px;
+        top: 38px;
+        left: 26px;
     }
 
     .footer_inner2 a h1{
@@ -1226,7 +1276,7 @@ footer{
 @media screen and (max-width:1070px){
 
     .on{
-        height: 700px;
+        height: 620px;
     }
 
     .hide{
@@ -1281,7 +1331,7 @@ footer{
     }
     
     .new_content{
-        padding-top: 0px;
+        padding-top: 100px;
         height: 100%;
         align-items: center;
         flex-direction: column;
@@ -1331,7 +1381,7 @@ footer{
     .bloksu div{
         width: 48%;
         height: auto;
-        padding: 0px 10px;
+        padding: 20px;
         margin-bottom: 25px;
     }
 
@@ -1341,10 +1391,10 @@ footer{
     }
 
     .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 15px;
-        left: 10px;
+        width: 16px;
+        height: 16px;
+        top: 34px;
+        left: 23px;
     }
 
     .nav-item5 a::before{
@@ -1404,7 +1454,7 @@ footer{
 @media screen and (max-width:924px){
 
     .on{
-        height: 700px;
+        height: 610px;
     }
 
     .header_lower h1{
@@ -1442,7 +1492,7 @@ footer{
     }
 
     .on{
-        height: 750px;
+        height: 630px;
     }
 
     .team_title{
@@ -1505,19 +1555,23 @@ footer{
 
     .bloksu  h1{
         font-size: 31px;
+        margin-left: 38px;
     }
 
     .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 12px;
-        left: 10px;
+        width: 16px;
+        height: 16px;
+        top: 32px;
+        left: 23px;
+        opacity: 1;
+
+        animation: circle 7s linear infinite alternate
     }
 
     .bloksu div{
         width: 750px;
         height: auto;
-        padding: 0px 10px;
+        padding: 20px;
         margin-bottom: 50px;
     }
 }
@@ -1525,7 +1579,7 @@ footer{
 @media screen and (max-width:846px){
     
     .on{
-        height: 770px;
+        height: 650px;
     }
 }
 
@@ -1593,7 +1647,7 @@ footer{
 @media screen and (max-width:732px){
 
     .on{
-        height: 800px;
+        height: 720px;
     }
 
     .header_lower{
@@ -1652,12 +1706,16 @@ footer{
         justify-content: center;
         overflow: hidden;
     }
+
+    .new_content{
+        padding-top: 80px;
+    }
 }
 
 @media screen and (max-width:690px){
 
     .on{
-        height: 820px;
+        height: 730px;
     }
 }
 
@@ -1684,7 +1742,7 @@ footer{
 @media screen and (max-width:650px){
 
     .on{
-        height: 850px;
+        height: 730px;
     }
 
     .team_block{
@@ -1699,7 +1757,7 @@ footer{
 @media screen and (max-width: 623px){
 
     .on{
-        height: 880px;
+        height: 740px;
     }
 
     .dropdown-item{
@@ -1759,14 +1817,21 @@ footer{
     }
 
     .on{
-        height: 900px;
+        height: 780px;
     }
 }
 
 @media screen and (max-width: 562px){
 
     .on{
-        height: 950px;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 558px){
+
+    .on{
+        height: 840px;
     }
 }
 
@@ -1793,7 +1858,7 @@ footer{
     .new_content p{
         width: 80%;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 14px;
         line-height: 1.4;
     }
@@ -1811,10 +1876,27 @@ footer{
     }
 
     .bloksu  div::before{
-        width: 13px;
-        height: 13px;
-        top: 12px;
-        left: 14px;
+        width: 16px;
+        height: 16px;
+        top: 32px;
+        left: 23px;
+        opacity: 1;
+
+        animation: circle 7s linear infinite alternate
+    }
+
+    .bloksu div{
+        margin: 0px;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: none;
+        border: 2px solid rgb(95, 187, 240);
+    }
+
+    .bloks{
+        width: 100%;
+        padding: 50px 10px;
     }
 
     .hide1{
@@ -1837,7 +1919,11 @@ footer{
     .new_inside{
         width: 90%;
         margin: 0 auto;
-        height: 80%;
+        height: 90%;
+    }
+
+    .new_content{
+        padding-top: 30px;
     }
 
     .new_content a{
@@ -1917,7 +2003,7 @@ footer{
     }
 
     .on{
-        height: 980px;
+        height: 850px;
     }
 
     .slide_lower .slide_obs h4{
@@ -1954,7 +2040,7 @@ footer{
 @media screen and (max-width:444px){
 
     .on{
-        height: 1020px;
+        height: 880px;
     }
 }
 
@@ -1972,14 +2058,18 @@ footer{
 @media screen and (max-width:420px){
 
     .on{
-        height: 1100px;
+        height: 950px;
+    }
+
+    .new_content{
+        padding-top: 100px;
     }
 
     .new_content p{
         width: 90%;
         margin: 0 auto;
         margin-bottom: 20px;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 1.3;
     }
 
@@ -2092,7 +2182,7 @@ footer{
     }
     
     .on{
-        height: 1060px;
+        height: 1000px;
     }
 
     .footer_inner1 ul li::before{
@@ -2129,14 +2219,14 @@ footer{
     }
 
     .on{
-        height: 1070px !important;
+        height: 970px !important;
     }
 }
 
 @media screen and (max-width:388px){
 
     .on{
-        height: 1140px !important;
+        height: 1000px !important;
     }
 
     .header_lower h1{
@@ -2165,7 +2255,7 @@ footer{
     }
 
     .on{
-        height: 1200px !important;
+        height: 1050px !important;
     }
 
     footer{
@@ -2199,7 +2289,7 @@ footer{
 @media screen and (max-width:396px){
 
     .on{
-        height: 1150px !important;
+        height: 1000px !important;
     }
 }
 
@@ -2336,7 +2426,7 @@ footer{
     }
     
     .on{
-        height: 1200px;
+        height: 1050px;
     }
 
 }
@@ -2344,39 +2434,43 @@ footer{
 @media screen and (max-width:368px){
 
     .on{
-        height: 1190px !important;
+        height: 1050px !important;
     }
 }
 
 @media screen and (max-width:358px){
 
     .on{
-        height: 1220px !important;
+        height: 1100px !important;
     }
 }
 
 @media screen and (max-width:340px){
 
     .on{
-        height: 1280px !important;
+        height: 1130px !important;
     }
 }
 
 @media screen and (max-width:330px){
 
     .on{
-        height: 1300px !important;
+        height: 1150px !important;
     }
 }
 
 @media screen and (max-width:316px){
 
     .on{
-        height: 1400px !important;
+        height: 1150px !important;
     }
 }
 
 @media screen and (max-width:320px){
+
+    .new_content{
+        padding-top: 60px;
+    }
 
     .burder_links{
         margin-bottom: 17px;
@@ -2396,7 +2490,7 @@ footer{
     }
 
     .on{
-        height: 1320px !important;
+        height: 1150px !important;
     }
 
     .bloks{
@@ -2478,35 +2572,46 @@ footer{
 @media screen and (max-width:316px){
 
     .on{
-        height: 1370px !important;
+        height: 1200px !important;
     }
 }
 
 @media screen and (max-width:310px){
 
     .on{
-        height: 1390px !important;
+        height: 1200px !important;
+    }
+
+    .team_title{
+        width: 90%;
+        left: 5%;
     }
 }
 
 @media screen and (max-width:304px){
 
     .on{
-        height: 1440px !important;
+        height: 1210px !important;
     }
 }
 
 @media screen and (max-width:296px){
 
     .on{
-        height: 1480px !important;
+        height: 1250px !important;
     }
 
     .navbar-brand{
         margin: 0px;
         margin-left: 14px;
     }
+}
 
+@media screen and (max-width: 289px){
+
+    .on{
+        height: 1290px !important;
+    }
 }
 
 @media screen and (max-width: 280px){
@@ -2566,7 +2671,7 @@ footer{
     }
 
     .on{
-        height: 1520px !important;
+        height: 1320px !important;
     }
     
     .h11{
@@ -2579,21 +2684,26 @@ footer{
 
     .bloks{
         width: 100%;
-        padding: 50px 30px;
-    }
-
-    .bloksu div{
-        width: 290px;
-        height: auto;
-        padding: 0px;
-        margin-bottom: 50px;
+        padding: 50px 10px;
     }
 
     .bloksu  div::before{
-        width: 11px;
-        height: 11px;
-        top: 10px;
-        left: 6px;
+        width: 14px;
+        height: 14px;
+        top: 26px;
+        left: 23px;
+        opacity: 1;
+
+        animation: circle 7s linear infinite alternate
+    }
+
+    .bloksu div{
+        margin: 0px;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 50px;
+        box-shadow: none;
+        border: 2px solid rgb(95, 187, 240);
     }
 
     .bloksu div:hover h1{
