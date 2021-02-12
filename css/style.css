@@ -445,8 +445,8 @@ main{
 .team_container{
     width: 100%;
     position: relative;
-    height: 676px;
-    padding-bottom: 50px;
+    height: 690px;
+    padding-bottom: 80px;
     margin-bottom: 50px;
     background: url('../img/team_banner.jpg') center / cover fixed;
 }
@@ -523,14 +523,6 @@ main{
     margin-top: 10px;
 }
 
-.team_block{
-    position: absolute;
-    height: 63%;
-    width: 90%;
-    left: 5%;
-    bottom: 9%;
-}
-
 .team_title{
     position: absolute;
     width: 30%;
@@ -565,12 +557,24 @@ main{
     height: 4px;
 }
 
-.swiper-container {
+.team_block{
+    position: absolute;
+    height: 60%;
+    top: 30%;
+    width: 85%;
+    left: 7.5%;
+}
+
+.gone1{
+    display: none !important;
+}
+
+.swiper-container{
     width: 100%;
     height: 100%;
   }
 
-  .swiper-slide {
+.swiper-slide{
     text-align: center;
     font-size: 18px;
 
@@ -587,6 +591,52 @@ main{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.team_content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.team_content .team_inner{
+    width: 30%;
+    height: 100%;
+}
+
+.team_content .team_inner:hover .team_banner img{
+    transform: scale(1.1);
+}
+
+.team_content .team_inner .team_banner{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.team_content .team_inner .team_lower{
+    width: 100%;
+    height: 30%;
+    background: white;
+    padding-top: 20px;
+}
+
+.team_content .team_inner .team_lower h4{
+    font-size: 30px;
+    color: rgb(46, 46, 46);
+}
+
+.team_content .team_inner .team_lower p{
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+}
+
+.team_content .team_inner .team_banner img{
+    width: 100%;
+    height: 100%;
+    transition: .3s;
 }
 
 /* news */
@@ -1070,6 +1120,19 @@ footer{
     .nav-item{
         margin-left: 7px;
     }
+    
+    .team_container{
+        width: 100%;
+        position: relative;
+        height: 630px;
+        padding-bottom: 80px;
+        margin-bottom: 50px;
+        background: url('../img/team_banner.jpg') center / cover fixed;
+    }
+
+    .team_content .team_inner .team_lower h4{
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width:1124px){
@@ -1191,6 +1254,19 @@ footer{
     .navbar-brand{
         margin-left: 10px;
     }
+
+    .team_container{
+        width: 100%;
+        position: relative;
+        height: 600px;
+        padding-bottom: 80px;
+        margin-bottom: 50px;
+        background: url('../img/team_banner.jpg') center / cover fixed;
+    }
+
+    .team_content .team_inner .team_lower h4{
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width:1034px){
@@ -1299,6 +1375,23 @@ footer{
 }
 
 @media screen and (max-width:990px){
+
+    .gone2{
+        display: block !important;
+    }
+
+    .team_container{
+        height: 670px;
+    }
+
+    .team_content .team_inner{
+        width: 46%;
+        height: 100%;
+    }
+
+    .delete{
+        display: none;
+    }
 
     .center_bar{
         text-align: center;
@@ -1613,14 +1706,6 @@ footer{
         display: flex;
         justify-content: space-between;
     }
-    
-    .team_block{
-        position: absolute;
-        height: 60%;
-        width: 80%;
-        left: 10%;
-        bottom: 13%;
-    }
 
     .hide{
         display: none;
@@ -1666,6 +1751,10 @@ footer{
 }
 
 @media screen and (max-width:732px){
+
+    .team_container{
+        height: 610px;
+    }
 
     .on{
         height: 720px;
@@ -1766,12 +1855,8 @@ footer{
         height: 730px;
     }
 
-    .team_block{
-        position: absolute;
-        height: 60%;
-        width: 80%;
-        left: 10%;
-        bottom: 10%;
+    .team_container{
+        height: 560px;
     }
 }
 
@@ -1811,25 +1896,36 @@ footer{
     .sub{
         font-size: 17px;
     }
-}
-
-@media screen and (max-width:610px){
 
     .slide_content{
         width: 100%;
         height: 90%;
         margin: 0 auto;
     }
+
+    .team_container{
+        height: 540px;
+    }
 }
 
 @media screen and (max-width: 584px){
 
-    .team_block{
-        position: absolute;
-        height: 55%;
+    
+    .team_container{
+        height: 650px;
+    }
+
+    .delete2{
+        display: none;
+    }
+
+    .gone1{
+        display: block !important;
+    }
+
+    .team_content .team_inner{
         width: 80%;
-        left: 10%;
-        bottom: 12%;
+        height: 100%;
     }
 
     .dropdown-item{
@@ -1927,14 +2023,6 @@ footer{
     .slide_inner{
         width: 100%;
         height: 100%;
-    }
-
-    .team_block{
-        position: absolute;
-        height: 70%;
-        width: 75%;
-        left: 12.5%;
-        bottom: 6%;
     }
 
     .new_inside{
@@ -2060,8 +2148,21 @@ footer{
 
 @media screen and (max-width:444px){
 
+    .team_container{
+        height: 620px;
+    }
+
     .on{
         height: 880px;
+    }
+
+    .team_content .team_inner .team_lower{
+        padding-top: 15px;
+    }
+
+    .team_content .team_inner .team_lower h4{
+        font-size: 23px;
+        margin-top: 0px;
     }
 }
 
@@ -2132,7 +2233,7 @@ footer{
     }
 
     .team_container{
-        height: 520px;
+        height:560px;
     }
 
     .slide_lower .slide_obs h4{
@@ -2387,7 +2488,7 @@ footer{
     }
 
     .team_container{
-        height: 520px;
+        height: 530px;
     }
 
     .slide_lower .slide_obs h4{
@@ -2520,7 +2621,7 @@ footer{
     }
 
     .team_container{
-        height: 540px;
+        height: 500px;
     }
 
     .slide_lower .slide_obs h4{
@@ -2613,6 +2714,23 @@ footer{
 
     .on{
         height: 1210px !important;
+    }
+
+    .team_container{
+        height: 480px;
+    }
+    
+    .team_content .team_inner .team_lower{
+        padding-top: 10px;
+    }
+
+    .team_content .team_inner .team_lower h4{
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .team_content .team_inner .team_lower p{
+        font-size: 17px;
     }
 }
 
@@ -2759,7 +2877,7 @@ footer{
     }
 
     .team_container{
-        height: 500px;
+        height: 470px;
     }
 
     .slide_lower .slide_obs h4{
@@ -2768,10 +2886,6 @@ footer{
     
     .slide_lower .slide_obs p{
         font-size: 17px;
-    }
-
-    .team_block{
-        bottom: 5%;
     }
 
     .news{
