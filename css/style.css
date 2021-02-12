@@ -591,7 +591,7 @@ main{
 
 /* news */
 
-.news{
+/* .news{
     width: 100%;
     height: 600px;
     margin-top: 70px;
@@ -698,7 +698,7 @@ main{
 .new_banner img{
     width: 100%;
     height: 100%;
-}
+} */
 
 /* register */
 
@@ -841,7 +841,7 @@ footer{
 
 .footer_inner2{
     width: 45%;
-}   
+}
 
 .footer_inner1 h2{
     color: white;
@@ -1299,7 +1299,26 @@ footer{
 }
 
 @media screen and (max-width:990px){
+
+    .center_bar{
+        text-align: center;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
     
+    .burder_links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item1 a::before{
+        display: none;
+    }
+
+    .burder_links li a {
+        margin: 0px 10px;
+    }
+
     .h11::before,
     .h11::after{
         display: none;
@@ -1307,10 +1326,6 @@ footer{
 
     .nav-item a::before{
         display: none;
-    }
-
-    .nav-item1 a::before{
-        display: block;
     }
 
     .news{
@@ -1409,10 +1424,9 @@ footer{
     }
     
     .nav-item{
-        margin-left: 28px;
+        margin-left: 0px !important;
         margin-bottom: .3px;
     }
-
     .nav-item a{
         color: white;
         font-size: 23px;

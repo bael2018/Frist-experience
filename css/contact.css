@@ -788,8 +788,26 @@ footer{
         display: none;
     }
 
+    .center_bar{
+        text-align: center;
+    }
+    
+    .burder_links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .burder_links li a {
+        margin: 0px 10px;
+    }
+
+    .nav-item{
+        margin-left: 0px !important;
+        margin-bottom: .3px;
+    }
+
     .nav-item1 a::before{
-        display: block;
+        display: none;
     }
 
     .navbar-brand{

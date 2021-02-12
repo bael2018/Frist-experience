@@ -713,15 +713,29 @@ footer{
 }
 
 @media screen and (max-width:990px){
-    
+
     .nav-item a::before{
         display: none;
     }
 
-    .nav-item1 a::before{
-        display: block;
+    .center_bar{
+        text-align: center;
     }
- 
+    
+    .burder_links{
+        display: flex;
+        justify-content: center;
+    }
+
+    .burder_links li a {
+        margin: 0px 10px;
+    }
+
+    .nav-item{
+        margin-left: 0px !important;
+        margin-bottom: .3px;
+    }
+    
     .navbar-brand{
         margin-left: 27px;
     }
