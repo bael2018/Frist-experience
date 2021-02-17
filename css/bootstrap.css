@@ -5919,7 +5919,7 @@ a.close.disabled {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 3800 !important;
   display: none;
   width: 100%;
   height: 100%;
@@ -6018,13 +6018,28 @@ a.close.disabled {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  width: 100%;
+  width: 150%;
+  left: -100px !important;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
   outline: 0;
+}
+
+@media screen and (max-width:900px){
+  .modal-content{
+    width: 100%;
+    left: 0px !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .modal-content{
+    width: 100%;
+    left: 0px !important;
+  }
 }
 
 .modal-backdrop {
@@ -6065,7 +6080,14 @@ a.close.disabled {
 
 .modal-title {
   margin-bottom: 0;
+  color: rgb(17, 127, 252);
   line-height: 1.5;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.modal-title::first-letter{
+  font-size: 25px;
 }
 
 .modal-body {
@@ -6083,7 +6105,7 @@ a.close.disabled {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: end;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
   border-bottom-right-radius: calc(0.3rem - 1px);

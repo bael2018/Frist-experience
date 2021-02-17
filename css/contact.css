@@ -487,6 +487,60 @@ footer{
     margin-right: 7px;
 }
 
+.place{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 650px){
+    .place{
+        height: 300px;
+    }
+}
+
+.opening{
+    margin-bottom: 20px;
+    width: 80%;
+    border: none;
+    text-align: left;
+    padding: 0px;
+    padding-bottom: 7px;
+    color: white;
+    outline: none !important;
+    background: none;
+    transition: .3s;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+
+.opening:hover::before{
+    opacity: 1;
+}
+
+.opening::before{
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    width: 10px;
+    background: rgb(252, 252, 252);
+    height: 10px;
+    transition: .3s;
+    opacity: 0;
+    transform: rotate(45deg);
+}
+
+.opening i{
+    margin-right: 6px;
+}
+
+.opening:hover{
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+}
+
 /* footer_inner1 */
 
 .footer_inner2{
@@ -958,8 +1012,11 @@ footer{
     
 }
 
-
 @media screen and (max-width:800px){
+
+    .footer_inner1{
+        width: 35%;
+    }
 
     .on1 div p{
         line-height: 1.5;
@@ -978,6 +1035,10 @@ footer{
 }
 
 @media screen and (max-width:732px){
+
+    footer{
+        padding-top: 50px !important;
+    }
 
     .dropdown-item{
         font-size: 12px;
@@ -1005,7 +1066,7 @@ footer{
     }
 
     .footer_inner1{
-        width: 45%;
+        width: 55%;
     }
     
     .footer_inner3{
@@ -1190,6 +1251,10 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    footer{
+        padding-top: 100px !important;
+    }
+
     .slide_lower .slide_obs h4{
         margin-top: 10px;
         font-size: 25px;
@@ -1201,7 +1266,7 @@ footer{
     }
 
     .footer_inner1{
-        width: 45%;
+        width: 55%;
     }
     
     .footer_inner3{
@@ -1266,6 +1331,11 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .opening{
+        text-align: center;
+        border: none;
+    }
+
     .info_block p{
         font-size: 16px !important;
     }
@@ -1325,7 +1395,7 @@ footer{
 
     footer{
         width: 100%;
-        padding-top: 100px !important;
+        padding-top: 50px !important;
     }
 
     .register_container{
