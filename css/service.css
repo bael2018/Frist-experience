@@ -1214,6 +1214,11 @@ footer{
 
 @media screen and (max-width: 512px){
 
+    .block1_inside ul{
+        list-style: none;
+        padding-left: 10px;
+    }
+
     .block1_title h2{
         font-size: 30px;
     }

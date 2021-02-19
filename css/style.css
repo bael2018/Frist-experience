@@ -354,6 +354,11 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.bloksu div a{
+    display: none;
+}
+
 .bloksu div{
     width: 48%;
     height: auto;
@@ -763,7 +768,7 @@ footer{
 
 .footer_inner3 ul li a{
     padding: 4px 10px;
-    font-size: 35px;
+    font-size: 40px !important;
     color: white;
     border-radius: 3px;
 }
@@ -787,7 +792,7 @@ footer{
     margin-right: 18px;
     padding: 4px 10px;
     padding-left: 9px;
-    font-size: 31px;
+    font-size: 34px !important;
 }
 
 .footer_inner3 ul li:nth-child(2) a:nth-child(2){
