@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
@@ -185,62 +189,10 @@ main{
     margin-top: 0px;
 }
 
-.triple{
-    width: 100%;
-    height: 250px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.triple div{
-    width: 50%;
-    height: 100%;
-    text-align: center;
-}
-
-.triple_inner1 p{
-    line-height: 1.5;
-    width: 80%;
-    font-weight: 300;
-    color: black;
-    margin: 0 auto;
-    margin-top: 70px;
-    position: relative;
-}
-
-.triple_inner2 p{
-    color: rgb(36, 36, 36);
-    font-size: 17px;
-    margin: 0px;
-    letter-spacing: 3px;
-    position: relative;
-}
-
-.triple_inner2 h1{
-    line-height: 1.5;
-    width: 80%;
-    font-weight: 300;
-    color: rgb(53, 53, 53);
-    margin: 0 auto;
-    margin-top: 60px;
-    font-weight: 500;
-    font-size: 45px;
-}
-
-.triple_inner2 P::after{
-    content: "";
-    position: absolute;
-    bottom: -20px;
-    right: 45%;
-    width: 10%;
-    background: rgb(17, 127, 252);
-    height: 3px;
-}
-
 .on{
     color: white;
     text-align: center;
-    height: 676px;
+    height: 600px;
     padding-top: 50px;
     background: url('../img/about2.jpg') center / cover fixed;
     position: relative;
@@ -253,10 +205,11 @@ main{
 }
 
 .on1 div p{
-    line-height: 1.7;
+    line-height: 1.8;
     margin-bottom: 30px;
+    letter-spacing: 2px;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
 }
 .on:before{
     content: '';
@@ -265,7 +218,7 @@ main{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 .ond{
     z-index: 2;
@@ -982,7 +935,7 @@ footer{
 @media screen and (max-width:888px){
 
     .on{
-        height: 750px;
+        height: 700px;
     }
 }
 
@@ -1001,7 +954,7 @@ footer{
 @media screen and (max-width:800px){
 
     .on{
-        height: 750px;
+        height: 670px;
     }
 
     .on1 div p{
@@ -1027,7 +980,7 @@ footer{
 @media screen and (max-width:732px){
 
     .on{
-        height: 780px;
+        height: 710px;
     }
 
     .input1{
@@ -1076,7 +1029,7 @@ footer{
 @media screen and (max-width:708px){
 
     .on{
-        height: 800px;
+        height: 730px;
     }
 
     footer{
@@ -1087,7 +1040,7 @@ footer{
 @media screen and (max-width:680px){
 
     .on{
-        height: 820px;
+        height: 740px;
     }
 }
 
@@ -1114,7 +1067,7 @@ footer{
 @media screen and (max-width: 623px){
 
     .on{
-        height: 850px;
+        height: 760px;
     }
 
     .dropdown-item{
@@ -1126,7 +1079,7 @@ footer{
 @media screen and (max-width:610px){
 
     .on{
-        height: 880px;
+        height: 770px;
     }
 
     .news{
@@ -1150,45 +1103,19 @@ footer{
 @media screen and (max-width: 584px){
 
     .on{
-        height: 900px;
+        height: 800px;
     }
 
     .dropdown-item{
         font-size: 11px;
         padding: 10px 15px; 
     }
-
-    .triple{
-        width: 100%;
-        height: 260px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .triple div{
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
-
-    .triple_inner2{
-        margin-bottom: 100px;
-    }
-
-    .triple_inner1{
-        margin-top: 30px;
-    }
-    
-    .triple_inner2 h1{
-        margin-top: 0px !important;
-    }
 }
 
 @media screen and (max-width: 556px){
 
     .on{
-        height: 940px;
+        height: 820px;
     }
 }
 
@@ -1197,6 +1124,10 @@ footer{
     .dropdown-item{
         font-size: 10px;
         padding: 10px 15px; 
+    }
+
+    .on{
+        height: 840px;
     }
 }
 
@@ -1227,7 +1158,7 @@ footer{
 @media screen and (max-width: 512px){
 
     .on{
-        height: 980px;
+        height: 850px;
     }
 
     .on1 div p{
@@ -1249,8 +1180,8 @@ footer{
 
 @media screen and (max-width: 468px){
 
-    .triple{
-        height: 280px;
+    .on{
+        height: 920px;
     }
 
     .team_title{
@@ -1272,16 +1203,12 @@ footer{
     .footer_inner3{
         width: 40%;
     }
-
-    .on{
-        height: 1000px;
-    }
 }
 
 @media screen and (max-width:444px){
 
     .on{
-        height: 1050px;
+        height: 940px;
     }
 
     .on1 h1{
@@ -1298,7 +1225,7 @@ footer{
 @media screen and (max-width:436px){
 
     .on{
-        height: 1030px;
+        height: 960px;
     }
 
     .header_lower h1{
@@ -1313,27 +1240,7 @@ footer{
 @media screen and (max-width:420px){
 
     .on{
-        height: 1050px;
-    }
-
-    .triple{
-        width: 100%;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .triple_inner2{
-        margin-bottom:200px;
-    }
-
-    .triple_inner1{
-        margin-top:150px;
-    }
-    
-    .triple_inner2 h1{
-        margin-top: 0px !important;
+        height: 990px;
     }
 
     .navbar-brand h1{
@@ -1367,7 +1274,7 @@ footer{
     }
 
     .on{
-        height: 1100px;
+        height: 1000px;
     }
 
     .footer_inner1{
@@ -1399,7 +1306,7 @@ footer{
 @media screen and (max-width:388px){
 
     .on{
-        height: 1150px;
+        height: 1030px;
     }
 
     .header_lower h1{
@@ -1414,46 +1321,42 @@ footer{
 @media screen and (max-width:380px){
 
     .on{
-        height: 1190px;
-    }
-
-    .triple{
-        padding-bottom: 20px;
+        height: 1090px;
     }
 }
 
 @media screen and (max-width:365px){
 
     .on{
-        height: 1220px;
+        height: 1100px;
     }
 }
 
 @media screen and (max-width:356px){
 
     .on{
-        height: 1250px;
+        height: 1130px;
     }
 }
 
 @media screen and (max-width:344px){
 
     .on{
-        height: 1280px !important;
+        height: 1160px !important;
     }
 }
 
 @media screen and (max-width:332px){
 
     .on{
-        height: 1330px !important;
+        height: 1220px !important;
     }
 }
 
 @media screen and (max-width:324px){
 
     .on{
-        height: 1400px !important;
+        height: 1270px !important;
     }
 
     .triple_inner1 p{
@@ -1483,20 +1386,20 @@ footer{
 @media screen and (max-width:308px){
 
     .on{
-        height: 1430px !important;
+        height: 1300px !important;
     }
 }
 
 @media screen and (max-width:298px){
 
     .on{
-        height: 1500px !important;
+        height: 1340px !important;
     }
 }
 
 @media screen and (max-width:290px){
 
     .on{
-        height: 1540px !important;
+        height: 1370px !important;
     }
 }
