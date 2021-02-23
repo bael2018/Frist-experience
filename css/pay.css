@@ -187,109 +187,99 @@ header{
 
 main{
     width: 100%;
-    margin-top: 50px;
+    margin: 50px 0px;
+    margin-bottom: 80px;
 }
 
 .main_block1{
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .block1_title{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.block1_title h3{
     text-align: center;
-    margin-bottom: 40px;
-}
-
-.block1_title h2{
     color: rgb(65, 65, 65);
-    font-size: 45px;
-}
-
-.block1_title p{
-    color: rgb(65, 65, 65);
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
+    margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .block1_inside{
-    width: 85%;
-    margin: 0 auto;
+    width: 100%;
 }
 
-.block1_inside ul{
-    list-style: none;
-}
-
-.block1_inside ul li{
-    margin-bottom: 13px;
-    font-size: 18px;
-    color: rgb(37, 37, 37);
+.block1_inside p{
+    font-size: 24px;
     font-weight: 500;
-    line-height: 1.7;
-    position: relative;
+    color: rgb(59, 59, 59);
 }
 
-.block1_inside ul li::before{
-    content: "";
-    position: absolute;
-    background: rgb(17, 127, 252);
-    width: 9px;
-    height: 9px;
-    transform: rotate(45deg);
-    left: -20px;
-    top: 11px;
+.pick{
+    margin-bottom: 15px !important; 
 }
 
-/* main_block2 */
-
-.main_block2{
-    width: 100%;
-    margin-top: 50px;
+.phone2{
+    color: rgb(59, 59, 59);
 }
 
-.block2_title{
-    text-align: center;
+.blue{
+    color: rgb(17, 127, 252) !important;
 }
 
-.block2_title h1{
-    text-align: center;
-    position: relative;
-    color: rgb(65, 65, 65);
-    font-size: 45px;
-    margin-bottom: 2px;
+.phone{
+    text-decoration: underline;
 }
 
-.block2_title i{
+.phone:hover{
+    text-decoration: none;
+}
+
+.under{
+    border-bottom: 2px dotted rgb(17, 127, 252);
+}
+
+.col{
     color: rgb(17, 127, 252);
-    font-size: 30px;
-
-    animation: arrow 1s linear infinite alternate;
+    font-size: 25px;
+    padding: 0px;
+    padding-right: 5px;
 }
 
-@keyframes arrow{
-    100%{
-        transform: translate(0px, 13px);
-    }
-}
-
-.block2_inside{
-    width: 85%;
-    margin: 0 auto;
+.block_lower{
     margin-top: 30px;
-    height: 150px;
-    justify-content: space-between;
-    display: flex;
-}
-
-.block2_inside div{
-    width: 22%;
-}
-
-.block2_inside div img{
-    height: 100%;
     width: 100%;
+    text-align: center;
 }
 
+.block_lower h3{
+    color: rgb(65, 65, 65);
+    font-size: 27px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.block_lower h3::before{
+    content: "";
+    left: 20%;
+    background: rgb(17, 127, 252);
+    height: 2px;
+    width: 60%;
+    bottom: -10px;
+    position: absolute;
+}
+
+.block_lower p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+}
 
 /* footer */
 
@@ -676,17 +666,6 @@ footer{
         font-size: 38px;
     }
 
-    .bloksu  h1{
-        font-size: 35px;
-    }
-
-    .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 25px;
-        left: 10px;
-    }
-
     .footer_inner2 a h1{
         font-size: 40px;
     }
@@ -740,11 +719,6 @@ footer{
 
 @media screen and (max-width:1060px){
 
-    .imgh2 p{
-        line-height: 1.5;
-        font-size: 15px;
-    }
-
     .navbar{
         padding-right: 10px !important;
     }
@@ -764,18 +738,6 @@ footer{
         overflow: hidden;
     }
 
-    .bloksu div p{
-        font-size: 15px;
-    }
-
-    .on1 h1{
-        font-size: 38px;
-    }
-
-    .h11{
-        font-size: 38px;
-    }
-
     .navbar-brand h1{
         color: white;
         margin: 0px;
@@ -793,13 +755,6 @@ footer{
     .navbar-brand P::before,
     .navbar-brand P::after{
         display: none;
-    }
-}
-
-@media screen and (max-width:1000px){
-    
-    .on1 div p{
-        line-height: 1.4;
     }
 }
 
@@ -845,23 +800,9 @@ footer{
         position: relative;
     }
 
-    .bloksu div{
-        width: 48%;
-        height: auto;
-        padding: 0px 10px;
-        margin-bottom: 25px;
-    }
-
     .dropdown-item{
         font-size: 15px;
         padding: 10px 15px; 
-    }
-
-    .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 15px;
-        left: 10px;
     }
 
     .nav-item5 a::before{
@@ -910,65 +851,6 @@ footer{
 
 @media screen and (max-width:924px){
 
-    .block2_inside{
-        height: 120px;
-    }
-
-    .bl1{
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 50px;
-        height: 550px;
-    }
-    
-    .imgh2 p{
-        line-height: 1.5;
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .imgh2{
-        width: 100%;
-        order: 2;
-        text-align: center;
-        margin: 0px !important;
-        padding: 0px;
-    }
-
-    .imgh4{
-        margin-left: 40px;
-        order: 1;
-    }
-
-    .imgh3{
-        margin-left: 40px;
-    }
-
-    .bloks{
-        width: 100%;
-        margin-bottom: 45px;
-    }
-
-    .h11{
-        font-size: 38px;
-        margin-bottom: 80px;
-    }
-
-    .imgh img{
-        border-radius: 5px;
-        width: 100%;
-        height: 100%;
-    }
-
-    .imgh{
-        width: 70%;
-        height: 300px;
-        margin: 0 auto;
-        padding-top: 0px;
-    }
-
     .header_lower h1{
         color: white;
     }
@@ -990,35 +872,9 @@ footer{
         font-size: 14px;
         padding: 10px 15px; 
     }
-
-    .bloksu  h1{
-        font-size: 31px;
-    }
-
-    .bloksu  div::before{
-        width: 15px;
-        height: 15px;
-        top: 12px;
-        left: 10px;
-    }
-
-    .bloksu div{
-        width: 750px;
-        height: auto;
-        padding: 0px 10px;
-        margin-bottom: 50px;
-    }
 }
 
 @media screen and (max-width:830px){
-
-    .imgh3{
-        text-align: center;
-    }
-    
-    .imgh4{
-        text-align: center;
-    }
 
     .hide{
         display: none;
@@ -1027,19 +883,9 @@ footer{
 
 @media screen and (max-width:800px){
 
-    .on1 div p{
-        line-height: 1.4;
-        font-size: 15px;
-    }
-
     .dropdown-item{
         font-size: 13px;
         padding: 10px 15px; 
-    }
-
-    .on1{
-        width: 100%;
-        margin: 0 auto;
     }
 
     .footer_inner1{
@@ -1048,10 +894,6 @@ footer{
 }
 
 @media screen and (max-width:740px){
-
-    .block2_inside{
-        height: 100px;
-    }
 
     .input1{
         width: 100%;
@@ -1085,14 +927,6 @@ footer{
 
 @media screen and (max-width:668px){
     
-    .on1 div p{
-        line-height: 1.4;
-        margin-bottom: 30px;
-        color: white;
-        font-weight: 300;
-        font-size: 14px;
-    }
-
     .header_lower h1{
         color: white;
         font-size: 25px;
@@ -1100,20 +934,6 @@ footer{
     
     .header_lower h1:first-child{
         font-size: 30px;
-    }
-}
-
-@media screen and (max-width:645px){
-
-    .block2_inside{
-        height: 80px;
-    }
-
-    .imgh{
-        width: 70%;
-        height: 270px;
-        margin: 0 auto;
-        padding-top: 0px;
     }
 }
 
@@ -1138,19 +958,6 @@ footer{
     .sub{
         font-size: 17px;
     }
-
-    .block1_title h2{
-        font-size: 35px;
-    }
-    
-    .block1_title p{
-        font-size: 17px;
-    }
-
-    .block2_title h1{
-        font-size: 35px;
-    }
-    
 }
 
 @media screen and (max-width: 584px){
@@ -1158,28 +965,6 @@ footer{
     .dropdown-item{
         font-size: 11px;
         padding: 10px 15px; 
-    }
-
-    .imgh2 h2{
-        color: rgb(17, 127, 252);
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-
-    .imgh2{
-        padding-top: 20px;
-    }
-
-    .bl1{
-        width: 100%;
-        height: 460px;
-        margin-bottom: 80px !important;
-    }
-
-    .imgh{
-        width: 80%;
-        height: 260px;
-        margin: 0 auto;
     }
 }
 
@@ -1201,16 +986,6 @@ footer{
         font-size: 32px;
     }
 
-    .bloksu  h1{
-        font-size: 28px;
-    }
-
-    .bloksu  div::before{
-        width: 13px;
-        height: 13px;
-        top: 12px;
-        left: 14px;
-    }
     .hide1{
         display: none;
     }
@@ -1218,71 +993,12 @@ footer{
 
 @media screen and (max-width: 512px){
 
-    .block1_inside ul{
-        list-style: none;
-        padding-left: 10px;
-    }
-
-    .block1_title h2{
-        font-size: 30px;
-    }
-    
-    .block1_title p{
-        font-size: 16px;
-    }
-
-    .block2_title h1{
-        font-size: 30px;
-    }
-
-    .block2_inside{
-        margin-top: 20px;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-        height: 300px;
-        flex-wrap: wrap;
-    }
-    
-    .block2_inside div{
-        width: 45%;
-    }
-
-    .on1 div p{
-        line-height: 1.4;
-        margin-bottom: 30px;
-        color: white;
-        font-weight: 300;
-        font-size: 13px;
-    }
-
     .header_lower h1{
         font-size: 20px;
     }
     
     .header_lower h1:first-child{
         font-size: 23px;
-    }
-}
-
-@media screen and (max-width: 484px){
-
-    .imgh{
-        width: 80%;
-        height: 230px;
-        margin: 0 auto;
-        padding-top: 0px;
-    }
-
-    .on1 h1{
-        font-size: 32px;
-        margin-bottom: 25px;
-    }
-
-    .on1 h1::before,
-    .on1 h1::after
-    {
-        display: none;
     }
 }
 
@@ -1321,26 +1037,6 @@ footer{
 }
 
 @media screen and (max-width:420px){
-
-    .block1_title h2{
-        font-size: 25px;
-    }
-    
-    .block1_title p{
-        font-size: 15px;
-    }
-
-    .block2_title h1{
-        font-size: 25px;
-    }
-
-    .bl1{
-        margin-bottom: 110px !important;
-    }
-
-    .on{
-        height: 180vh;
-    }
 
     .navbar-brand h1{
         color: white;
@@ -1413,16 +1109,6 @@ footer{
     }
 }
 
-@media screen and (max-width:370px){
-
-    .imgh{
-        width: 80%;
-        height: 200px;
-        margin: 0 auto;
-        padding-top: 0px;
-    }
-}
-
 @media screen and (max-width:324px){
 
     .navbar-brand h1{
@@ -1434,19 +1120,5 @@ footer{
         font-size: 13px;
         margin: 0px;
         letter-spacing: 2px;
-    }
-
-    .imgh2 h2{
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width:300px){
-
-    .imgh{
-        width: 90%;
-        height: 190px;
-        margin: 0 auto;
-        padding-top: 0px;
     }
 }
