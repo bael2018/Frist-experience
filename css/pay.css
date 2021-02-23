@@ -122,6 +122,63 @@ header{
     animation-play-state: paused;
 }
 
+/* language */
+
+.nav-item5{
+    margin-top: 5px;
+}
+
+.dropdown-item1{
+    padding:0rem !important;
+}
+
+.botton{
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+    position: relative;
+}
+
+.dropdown-item1:hover{
+    background: none !important;
+}
+
+.dropdown-item1::before{
+    display: none;
+}
+
+.botton:active{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.flag1{
+    width: 20px;
+    position: absolute;
+    top: 9px;
+}
+
+.dropdown-menu1{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 1.3rem;
+    margin: 0px !important;
+}
+
+.flag2{
+    width: 22px;
+    position: absolute;
+    top: 9px;
+    left: 1.8px;
+}
+
+/* language */
+
 .nav-link img{
     width: 21px;
 }
@@ -537,10 +594,6 @@ footer{
 
 @media screen and (max-width:990px){
 
-    .nav-item5 a::before{
-        width: 0px !important;
-    }
-    
     .nav-item{
         margin-left: 28px;
         margin-bottom: .3px;
@@ -758,6 +811,17 @@ footer{
     }
 }
 
+@media screen and (max-width:992px){
+
+    .dropdown-menu1{
+        display: none !important;
+    }
+
+    .botton{
+        margin-right: 5px !important;
+    }
+}
+
 @media screen and (max-width:990px){
 
     .nav-item a::before{
@@ -805,10 +869,6 @@ footer{
         padding: 10px 15px; 
     }
 
-    .nav-item5 a::before{
-        width: 0px !important;
-    }
-    
     .nav-item{
         margin-left: 28px;
         margin-bottom: .3px;
