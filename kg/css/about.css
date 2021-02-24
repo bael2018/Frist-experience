@@ -833,6 +833,10 @@ footer{
 
 @media screen and (max-width:992px){
 
+    .footer_inner3{
+        width: 30%;
+    }
+
     .nav-link1{
         padding: 0px !important;
         padding-left: 0px !important;
@@ -968,11 +972,14 @@ footer{
     }
 }
 
-@media screen and (max-width:924px){
+@media screen and (max-width:945px){
 
     .on{
-        height: 700px;
+        height: 570px;
     }
+}
+
+@media screen and (max-width:924px){
 
     .header_lower h1{
         color: white;
@@ -1019,10 +1026,15 @@ footer{
     }
 }
 
-@media screen and (max-width:888px){
+@media screen and (max-width:850px){
+
+    .footer_inner3{
+        width: 30%;
+        padding-left: 0px;
+    }
 
     .on{
-        height: 700px;
+        height: 600px;
     }
 }
 
@@ -1038,11 +1050,14 @@ footer{
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:812px){
 
     .on{
-        height: 670px;
+        height: 620px;
     }
+}
+
+@media screen and (max-width:800px){
 
     .on1 div p{
         line-height: 1.4;
@@ -1065,10 +1080,6 @@ footer{
 }
 
 @media screen and (max-width:732px){
-
-    .on{
-        height: 710px;
-    }
 
     .input1{
         width: 100%;
@@ -1115,19 +1126,12 @@ footer{
 
 @media screen and (max-width:708px){
 
-    .on{
-        height: 730px;
-    }
-
     footer{
         padding-top: 50px !important;
     }
-}
-
-@media screen and (max-width:680px){
 
     .on{
-        height: 740px;
+        height: 640px;
     }
 }
 
@@ -1151,11 +1155,14 @@ footer{
     }
 }
 
-@media screen and (max-width: 623px){
+@media screen and (max-width:640px){
 
     .on{
-        height: 760px;
+        height: 670px;
     }
+}
+
+@media screen and (max-width: 623px){
 
     .dropdown-item{
         font-size: 12px;
@@ -1165,8 +1172,20 @@ footer{
 
 @media screen and (max-width:610px){
 
+    .on h1::before{
+        left: 45%;
+    }
+    
+    .on h1::after{
+        left: 42%;
+    }
+
+    .on h1{
+        font-size: 32px;
+    }
+
     .on{
-        height: 770px;
+        height: 690px;
     }
 
     .news{
@@ -1190,7 +1209,7 @@ footer{
 @media screen and (max-width: 584px){
 
     .on{
-        height: 800px;
+        height: 720px;
     }
 
     .dropdown-item{
@@ -1199,10 +1218,10 @@ footer{
     }
 }
 
-@media screen and (max-width: 556px){
+@media screen and (max-width: 570px){
 
     .on{
-        height: 820px;
+        height: 750px;
     }
 }
 
@@ -1211,10 +1230,6 @@ footer{
     .dropdown-item{
         font-size: 10px;
         padding: 10px 15px; 
-    }
-
-    .on{
-        height: 840px;
     }
 }
 
@@ -1244,10 +1259,6 @@ footer{
 
 @media screen and (max-width: 512px){
 
-    .on{
-        height: 850px;
-    }
-
     .on1 div p{
         line-height: 1.4;
         margin-bottom: 30px;
@@ -1265,10 +1276,21 @@ footer{
     }
 }
 
+@media screen and (max-width: 500px){
+
+    .on{
+        height: 780px;
+    }
+}
+
 @media screen and (max-width: 468px){
 
     .on{
-        height: 920px;
+        height: 800px;
+    }
+
+    .footer_inner3 h2{
+        font-size: 24px;
     }
 
     .team_title{
@@ -1294,10 +1316,6 @@ footer{
 
 @media screen and (max-width:444px){
 
-    .on{
-        height: 940px;
-    }
-
     .on1 h1{
         font-size: 32px;
         margin-bottom: 25px;
@@ -1312,7 +1330,7 @@ footer{
 @media screen and (max-width:436px){
 
     .on{
-        height: 960px;
+        height: 840px;
     }
 
     .header_lower h1{
@@ -1325,10 +1343,6 @@ footer{
 }
 
 @media screen and (max-width:420px){
-
-    .on{
-        height: 990px;
-    }
 
     .navbar-brand h1{
         color: white;
@@ -1353,15 +1367,22 @@ footer{
     }
 }
 
+@media screen and (max-width:400px){
+
+    .on{
+        height: 880px;
+    }
+}
+
 @media screen and (max-width:412px){
+
+    .footer_inner3 h2{
+        font-size: 27px;
+    }
 
     .opening{
         text-align: center;
         border: none;
-    }
-
-    .on{
-        height: 1000px;
     }
 
     .footer_inner1{
@@ -1392,10 +1413,6 @@ footer{
 
 @media screen and (max-width:388px){
 
-    .on{
-        height: 1030px;
-    }
-
     .header_lower h1{
         font-size: 16px;
     }
@@ -1408,42 +1425,42 @@ footer{
 @media screen and (max-width:380px){
 
     .on{
-        height: 1090px;
+        height: 900px;
     }
 }
 
-@media screen and (max-width:365px){
+@media screen and (max-width:372px){
 
     .on{
-        height: 1100px;
+        height: 920px;
     }
 }
 
-@media screen and (max-width:356px){
+@media screen and (max-width:366px){
 
     .on{
-        height: 1130px;
+        height: 950px;
     }
 }
 
-@media screen and (max-width:344px){
+@media screen and (max-width:360px){
 
     .on{
-        height: 1160px !important;
+        height: 980px;
     }
 }
 
-@media screen and (max-width:332px){
+@media screen and (max-width:352px){
 
     .on{
-        height: 1220px !important;
+        height: 1040px;
     }
 }
 
 @media screen and (max-width:324px){
 
     .on{
-        height: 1270px !important;
+        height: 1070px;
     }
 
     .triple_inner1 p{
@@ -1473,20 +1490,20 @@ footer{
 @media screen and (max-width:308px){
 
     .on{
-        height: 1300px !important;
+        height: 1140px;
+    }
+}
+
+@media screen and (max-width:304px){
+
+    .on{
+        height: 1170px;
     }
 }
 
 @media screen and (max-width:298px){
 
     .on{
-        height: 1340px !important;
-    }
-}
-
-@media screen and (max-width:290px){
-
-    .on{
-        height: 1370px !important;
+        height: 1200px;
     }
 }

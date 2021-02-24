@@ -733,6 +733,10 @@ footer{
 }
 
 @media screen and (max-width:990px){
+
+    .footer_inner3{
+        width: 30%;
+    }
     
     .block2_inside p{
         font-size: 23px;
@@ -882,6 +886,14 @@ footer{
     }
 }
 
+@media screen and (max-width:850px){
+
+    .footer_inner3{
+        width: 30%;
+        padding-left: 0px;
+    }
+}
+
 @media screen and (max-width:800px){
 
     .footer_inner1{
@@ -907,7 +919,7 @@ footer{
 @media screen and (max-width:732px){
 
     footer{
-        padding-top: 50px !important;
+        padding-top: 20px !important;
     }
 
     .dropdown-item{
@@ -1032,8 +1044,12 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    .footer_inner3 h2{
+        font-size: 24px;
+    }
+
     footer{
-        padding-top: 100px !important;
+        padding-top: 50px !important;
     }
 
     .footer_inner1{
@@ -1104,6 +1120,10 @@ footer{
     .footer_inner3{
         width: 100%;
         text-align: center;
+    }
+    
+    .footer_inner3 h2{
+        font-size: 27px;
     }
 
     .footer_container{

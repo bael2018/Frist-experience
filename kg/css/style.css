@@ -869,11 +869,6 @@ footer{
     width: 30%;
 }
 
-.footer_inner3{
-    width: 25%;
-    text-align: center;
-}
-
 .footer_inner2{
     width: 45%;
 }
@@ -1039,7 +1034,9 @@ footer{
 /* footer_inner3 */
 
 .footer_inner3{
+    width: 25%;
     padding-left: 50px;
+    text-align: center;
 }
 
 .footer_inner3 h2{
@@ -1207,6 +1204,10 @@ footer{
 
     .new_content{
         padding-top: 40px;
+    }
+
+    .next{
+        left: 38%;
     }
 }
 
@@ -1435,7 +1436,7 @@ footer{
 @media screen and (max-width:1070px){
 
     .on{
-        height: 480px;
+        height: 440px;
     }
 
     .hide{
@@ -1470,6 +1471,14 @@ footer{
 
 @media screen and (max-width:1000px){
 
+    .footer_inner3{
+        width: 30%;
+    }
+
+    .next{
+        left: 37%;
+    }
+
     .block2_inside p{
         font-size: 23px;
     }
@@ -1481,10 +1490,6 @@ footer{
     .modal-content2 {
         width: 170% !important; 
         left: -35% !important;
-    }
-
-    .next{
-        left: 39%;
     }
 }
 
@@ -1692,7 +1697,7 @@ footer{
 @media screen and (max-width:924px){
 
     .on{
-        height: 480px;
+        height: 440px;
     }
 
     .slide_inner h4{
@@ -1717,12 +1722,12 @@ footer{
 
 @media screen and (max-width:910px){
 
-    .block1_info1{
-        width: 70%;
+    .next{
+        left: 35%;
     }
 
-    .next{
-        left: 39%;
+    .block1_info1{
+        width: 70%;
     }
 
     header{
@@ -1730,7 +1735,7 @@ footer{
     }
 
     .on{
-        height: 500px;
+        height: 470px;
     }
 
     .team_title{
@@ -1815,9 +1820,14 @@ footer{
 }
 
 @media screen and (max-width:850px){
+
+    .footer_inner3{
+        width: 30%;
+        padding-left: 0px;
+    }
     
     .on{
-        height: 510px;
+        height: 480px;
     }
 
     .mod{
@@ -1927,6 +1937,10 @@ footer{
 
 @media screen and (max-width:750px){
 
+    .next{
+        left: 33%;
+    }
+
     .modal-content2 {
         width: 130% !important; 
         left: -15% !important;
@@ -1969,7 +1983,7 @@ footer{
     }
 
     .on{
-        height: 540px;
+        height: 500px;
     }
 
     .header_lower{
@@ -2012,8 +2026,12 @@ footer{
 
 @media screen and (max-width:690px){
 
+    .next{
+        left: 31%;
+    }
+
     .on{
-        height: 540px;
+        height: 500px;
     }
 
     .next{
@@ -2052,7 +2070,7 @@ footer{
 @media screen and (max-width:650px){
 
     .on{
-        height: 560px;
+        height: 510px;
     }
 
     .team_container{
@@ -2126,7 +2144,7 @@ footer{
 @media screen and (max-width: 623px){
 
     .on{
-        height: 570px;
+        height: 520px;
     }
 
     .dropdown-item{
@@ -2140,6 +2158,10 @@ footer{
     .info1 h3{
         font-size: 26px;
         line-height: 1.4;
+    }
+
+    .next{
+        left: 29%;
     }
 }
 
@@ -2205,7 +2227,7 @@ footer{
     }
 
     .on{
-        height: 590px;
+        height: 540px;
     }
 }
 
@@ -2220,7 +2242,7 @@ footer{
     }
 
     .on{
-        height: 600px;
+        height: 550px;
     }
     
     .info1 h3{
@@ -2261,11 +2283,11 @@ footer{
 @media screen and (max-width: 558px){
 
     .on{
-        height: 610px;
+        height: 570px;
     }
 
     .next{
-        left: 32%;
+        left: 28%;
     }
 }
 
@@ -2290,6 +2312,10 @@ footer{
 }
 
 @media screen and (max-width: 528px){
+
+    .next{
+        left: 26%;
+    }
 
     .news{
         width: 100%;
@@ -2373,7 +2399,7 @@ footer{
     }
 
     .next{
-        left: 30%;
+        left: 24%;
     }
 
     .new_title{
@@ -2490,6 +2516,10 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    .next{
+        left: 21%;
+    }
+
     .info1 h3{
         font-size: 30px;
         width: 80%;
@@ -2509,7 +2539,7 @@ footer{
     }
 
     .on{
-        height: 620px;
+        height: 550px;
     }
 
     .slide_lower .slide_obs h4{
@@ -2550,11 +2580,11 @@ footer{
     }
 
     .next{
-        left: 26%;
+        left: 19%;
     }
 
     .on{
-        height: 630px;
+        height: 570px;
     }
 
     .team_content .team_inner .team_lower{
@@ -2585,7 +2615,7 @@ footer{
     }
 
     .on{
-        height: 630px;
+        height: 580px;
     }
 
     .new_content{
@@ -2722,7 +2752,7 @@ footer{
     }
     
     .on{
-        height: 640px;
+        height: 580px;
     }
 
     .footer_inner1 ul li::before{
@@ -2763,7 +2793,7 @@ footer{
     }
 
     .on{
-        height: 650px !important;
+        height: 600px ;
     }
 }
 
@@ -2810,7 +2840,7 @@ footer{
     }
 
     .on{
-        height: 670px !important;
+        height: 630px;
     }
 
     .header_lower h1{
@@ -2839,10 +2869,6 @@ footer{
     
     .header_lower h1:first-child{
         font-size: 35px;
-    }
-
-    .on{
-        height: 680px !important;
     }
 
     footer{
@@ -2875,12 +2901,8 @@ footer{
 
 @media screen and (max-width:396px){
 
-    .on{
-        height: 670px !important;
-    }
-
     .next{
-        left: 23%;
+        left: 17%;
     }
 }
 
@@ -2888,10 +2910,6 @@ footer{
 
     .burder_links{
         margin-bottom: 17px;
-    }
-
-    .on{
-        height: 1050px;
     }
 
     .team_container{
@@ -2951,6 +2969,10 @@ footer{
 }
 
 @media screen and (max-width:360px){
+
+    .on{
+        height: 670px;
+    }
 
     .info1 h3{
         font-size: 28px;
@@ -3028,29 +3050,16 @@ footer{
         width: 100%;
         padding: 50px 20px;
     }
-    
-    .on{
-        height: 680px;
-    }
-
 }
 
 @media screen and (max-width:368px){
 
     .next{
-        left: 23%;
-    }
-
-    .on{
-        height: 700px !important;
+        left: 15%;
     }
 }
 
 @media screen and (max-width:358px){
-
-    .on{
-        height: 720px !important;
-    }
 
     .block1_inside2{
         margin-bottom: 190px;
@@ -3060,7 +3069,7 @@ footer{
 @media screen and (max-width:347px){
 
     .next{
-        left: 20%;
+        left: 13%;
     }
 
     .block1_inside2{
@@ -3074,20 +3083,32 @@ footer{
 
 @media screen and (max-width:340px){
 
-    .on{
-        height: 730px !important;
-    }
-
     .dropdown-item{
         font-size: 7px;
         padding-left: 5px;
+    }
+
+    .on{
+        height: 670px;
+    }
+
+    .next{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:326px){
+
+    .on{
+        height: 700px;
     }
 }
 
 @media screen and (max-width:320px){
 
     .next{
-        left: 18%;
+        font-size: 14px;
+        left: 11%;
     }
 
     .block1_inside1{
@@ -3121,10 +3142,6 @@ footer{
     
     .header_lower h1:first-child{
         font-size: 30px;
-    }
-
-    .on{
-        height: 750px !important;
     }
 
     .bloks{
@@ -3198,19 +3215,7 @@ footer{
     }
 }
 
-
-@media screen and (max-width:316px){
-
-    .on{
-        height: 790px !important;
-    }
-}
-
 @media screen and (max-width:310px){
-
-    .on{
-        height: 820px !important;
-    }
 
     .team_title{
         width: 90%;
@@ -3219,10 +3224,6 @@ footer{
 }
 
 @media screen and (max-width:304px){
-
-    .on{
-        height: 830px !important;
-    }
 
     .team_container{
         height: 480px;
@@ -3244,20 +3245,9 @@ footer{
 
 @media screen and (max-width:296px){
 
-    .on{
-        height: 840px !important;
-    }
-
     .navbar-brand{
         margin: 0px;
         margin-left: 14px;
-    }
-}
-
-@media screen and (max-width: 289px){
-
-    .on{
-        height: 850px !important;
     }
 }
 
@@ -3312,10 +3302,6 @@ footer{
         margin-left: 0px;
     }
 
-    .on{
-        height: 890px !important;
-    }
-    
     .h11{
         font-size: 25px;
     }

@@ -851,6 +851,10 @@ footer{
 
 @media screen and (max-width:990px){
 
+    .footer_inner3{
+        width: 30%;
+    }
+
     .nav-item a::before{
         display: none;
     }
@@ -958,6 +962,14 @@ footer{
     .dropdown-item{
         font-size: 14px;
         padding: 10px 15px; 
+    }
+}
+
+@media screen and (max-width:850px){
+
+    .footer_inner3{
+        width: 30%;
+        padding-left: 0px;
     }
 }
 
@@ -1143,6 +1155,10 @@ footer{
 }
 
 @media screen and (max-width: 468px){
+    
+    .footer_inner3 h2{
+        font-size: 24px;
+    }
 
     footer{
         padding-top: 50px !important;
@@ -1202,6 +1218,10 @@ footer{
 }
 
 @media screen and (max-width:412px){
+
+    .footer_inner3 h2{
+        font-size: 27px;
+    }
 
     .block1_title h3{
         margin-bottom: 24px;

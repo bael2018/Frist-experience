@@ -781,6 +781,10 @@ footer{
 
 @media screen and (max-width:990px){
 
+    .footer_inner3{
+        width: 30%;
+    }
+
     .nav-item a::before{
         display: none;
     }
@@ -916,6 +920,14 @@ footer{
         font-size: 13px;
         margin-top: 20px;
         line-height: 1.5;
+    }
+}
+
+@media screen and (max-width:850px){
+
+    .footer_inner3{
+        width: 30%;
+        padding-left: 0px;
     }
 }
 
@@ -1106,8 +1118,12 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    .footer_inner3 h2{
+        font-size: 24px;
+    }
+
     footer{
-        padding-top: 100px !important;
+        padding-top: 40px !important;
     }
 
     .slide_lower .slide_obs h4{
@@ -1178,6 +1194,10 @@ footer{
 }
 
 @media screen and (max-width:412px){
+
+    .footer_inner3 h2{
+        font-size: 27px;
+    }
 
     .opening{
         text-align: center;
