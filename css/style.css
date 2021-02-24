@@ -16,7 +16,7 @@ header{
     margin-top: 95px;
     height: 600px;
     position: relative;
-    background: url('../img/can-i-help-you.jpg') center / cover fixed; 
+    background: url('../img/титульная\ стрница.jpg') center / cover fixed; 
 }
 
 .nav_container{
@@ -362,6 +362,12 @@ main{
     overflow: hidden;
 }
 
+.block1_info1{
+    width: 45%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .block1_title{
     width: 100%;
     text-align: center;
@@ -376,7 +382,7 @@ main{
     display: block;
     height: 100%;
     width: 100%;
-    background: url('../img/info1.jpg');
+    background: url('../img/онлан\ юридическая\ консультация.jpg');
     border: none !important;
     outline: none !important;
     border-radius: 5px;
@@ -388,8 +394,20 @@ main{
     transition: .3s;
 }
 
+.info4{
+    background: url('../img/бухгалтерские\ услуги.jpg');
+}
+
+.info3{
+    background: url('../img/адвокат\ по\ уголовным\ делам.jpg');
+}
+
+.info5{
+    background: url('../img/услуги\ по\ всем\ видам\ споров.jpg');
+}
+
 .info2{
-    background: url('../img/info2.jpg');
+    background: url('../img/онлайн\ консультации\ бухгалтера.jpg');
 }
 
 .info1:hover::before{
@@ -438,6 +456,14 @@ main{
     position: relative;
     left: 35%;
     font-size: 30px;
+}
+
+.block1_upper1{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 350px;
+    margin-bottom: 70px;
 }
 
 
@@ -598,7 +624,7 @@ main{
 }
 
 .slide1{
-    background: url('../img/businessman-reading-contract-closeup.jpg') center / cover;
+    background: url('../img/mal.jpg') center / cover;
 }
 
 .slide2{
@@ -1677,6 +1703,10 @@ footer{
 
 @media screen and (max-width:910px){
 
+    .block1_info1{
+        width: 70%;
+    }
+
     .next{
         left: 39%;
     }
@@ -2200,6 +2230,14 @@ footer{
     .block1_info2{
         margin-bottom: 40px;
     }
+
+    .block1_info1{
+        width: 90%;
+    }
+
+    .block1_upper1{
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 558px){
@@ -2676,6 +2714,10 @@ footer{
 }
 
 @media screen and (max-width:412px){
+
+    .block1_upper1{
+        height: 280px;
+    }
 
     .footer_inner1{
         width: 100%;
