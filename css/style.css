@@ -102,10 +102,6 @@ header{
     background: rgb(17, 127, 252);
 }
 
-.nav-item5{
-    margin-top: 5px;
-}
-
 .botton{
     border: none !important;
     outline: none !important;
@@ -431,6 +427,32 @@ main{
     width: 70%;
     margin: 0 auto;
     font-size: 40px;
+}
+
+.nav-item5 a::before{
+    display: none;
+}
+
+.nav-link1{
+    padding: 0px !important;
+    padding-left: 15px !important;
+}
+
+.flag{
+    width: 20px !important;
+}
+
+.nav-item5{
+    padding: 0px !important;
+    padding-top: 7px !important;
+    margin: 0px !important;
+}
+
+.botton{
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+    position: relative;
 }
 
 .block1_title::before{
@@ -867,10 +889,6 @@ footer{
     width: 30%;
 }
 
-.footer_inner3{
-    width: 25%;
-}
-
 .footer_inner2{
     width: 45%;
 }
@@ -1035,7 +1053,9 @@ footer{
 /* footer_inner3 */
 
 .footer_inner3{
-    text-align: right;
+    text-align: center;
+    padding-left: 60px;
+    width: 25%;
 }
 
 .footer_inner3 h2{
@@ -1445,10 +1465,19 @@ footer{
 
 @media screen and (max-width:992px){
 
-    .dropdown-menu1{
-        display: none !important;
+    .nav-link1{
+        padding: 0px !important;
+        padding-left: 0px !important;
     }
 
+    .nav-item5{
+        padding-top: 0px !important;
+    }
+
+    .flag{
+        width: 22px !important;
+    }
+    
     .botton{
         margin-right: 5px !important;
     }
@@ -1800,6 +1829,14 @@ footer{
     }
 }
 
+@media screen and (max-width:870px){
+
+    .footer_inner3{
+        padding-left: 40px;
+        width: 27%;
+    }
+}
+
 @media screen and (max-width:850px){
     
     .on{
@@ -1880,6 +1917,11 @@ footer{
 }
 
 @media screen and (max-width:800px){
+
+    .footer_inner3{
+        padding-left: 40px;
+        width: 29%;
+    }
 
     .info1 h3{
         width: 90%;
@@ -1975,11 +2017,11 @@ footer{
     }
 
     .footer_inner1{
-        width: 55%;
+        width: 45%;
     }
     
     .footer_inner3{
-        width: 30%;
+        width: 45%;
     }
     
     .footer_container{
@@ -2158,6 +2200,15 @@ footer{
 }
 
 @media screen and (max-width: 584px){
+
+    
+    .footer_inner1{
+        width: 50%;
+    }
+    
+    .footer_inner3{
+        width: 45%;
+    }
 
     .modal-content2 {
         width: 100% !important; 
@@ -2454,6 +2505,18 @@ footer{
 
 @media screen and (max-width: 484px){
 
+    .footer_inner1{
+        width: 50%;
+    }
+    
+    .footer_inner1 ul li a{
+        font-size: 14px !important;
+    }
+    
+    .footer_inner3{
+        width: 50%;
+    }
+
     .new_inside{
         width: 90%;
         margin: 0 auto;
@@ -2518,14 +2581,6 @@ footer{
 
     .team_title h1{
         font-size: 28px;
-    }
-
-    .footer_inner1{
-        width: 55%;
-    }
-    
-    .footer_inner3{
-        width: 40%;
     }
 }
 
@@ -2676,6 +2731,10 @@ footer{
         font-size: 14px;
     }
 
+    .footer_inner1 ul li a{
+        font-size: 17px !important;
+    }
+
     .footer_inner1{
         width: 100%;
         text-align: center;
@@ -2685,6 +2744,7 @@ footer{
     .footer_inner3{
         width: 100%;
         text-align: center;
+        padding-left: 0px !important;
     }
 
     .footer_container{
