@@ -999,6 +999,10 @@ footer{
         font-size: 30px;
     }
 
+    .info_inner1{
+        margin-top: 40px;
+    }
+
     .info_block{
         width: 100%;
         flex-direction: column;
@@ -1006,7 +1010,7 @@ footer{
     }
 
     .info_block div{
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         width: 100% !important;
     }
         
