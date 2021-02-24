@@ -2029,6 +2029,10 @@ footer{
         font-weight: 300;
         font-size: 15px;
     }
+
+    footer{
+        padding-top: 30px !important;
+    }
 }
 
 @media screen and (max-width:650px){
