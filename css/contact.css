@@ -286,7 +286,7 @@ main{
 .destination{
     width: 100%;
     height: 400px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .map{
@@ -316,7 +316,7 @@ main{
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 
 .info_inside .info_block p{
@@ -1108,7 +1108,7 @@ footer{
 @media screen and (max-width: 468px){
 
     footer{
-        padding-top: 100px !important;
+        padding-top: 60px !important;
     }
 
     .slide_lower .slide_obs h4{
@@ -1232,7 +1232,7 @@ footer{
     }
     
     .info{
-        margin-bottom: 0px !important;
+        margin-bottom: 50px !important;
     }
 }
 
@@ -1240,7 +1240,7 @@ footer{
 
     footer{
         width: 100%;
-        padding-top: 50px !important;
+        padding-top: 30px !important;
     }
 }
 

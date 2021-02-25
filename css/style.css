@@ -757,7 +757,6 @@ main{
 
 .more_content{
     width: 100%;
-    border: 1px solid red;
     justify-content: space-between;
     display: flex;
     height: 330px;
@@ -767,7 +766,6 @@ main{
 .more_inner{
     width: 32%;
     position: relative;
-    border: 1px solid green;
 }
 
 .more_inner:hover .more_inside{
@@ -865,6 +863,7 @@ main{
 .more_inner3 ul li{
     font-size: 30px;
 }
+
 /* register */
 
 .register{

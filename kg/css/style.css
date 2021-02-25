@@ -733,6 +733,119 @@ main{
     font-size: 27px;
 }
 
+
+/* more_info */
+
+.more_content{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 330px;
+    margin-bottom: 50px;
+}
+
+.more_inner{
+    width: 32%;
+    position: relative;
+}
+
+.more_inner:hover .more_inside{
+    opacity: 1;
+}
+
+.more_inner:hover::before{
+    opacity: 0;
+}
+
+.more_inner:hover h1{
+    opacity: 0;
+}
+
+.more_inner::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: .3s;
+    opacity: 1;
+}
+
+.more_inner h1{
+    position: absolute;
+    color: white;
+    top: 23%;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    transition: .3s;
+    opacity: 1;
+}
+
+.more_inner1{
+    background: url("../img/услуги\ по\ всем\ видам\ споров.jpg") center / cover;
+}
+
+.more_inner2{
+    background: url("../img/бухгалтерские\ услуги.jpg") center / cover;
+}
+
+.more_inner3{
+    background: url("../img/адвокат\ по\ уголовным\ делам.jpg") center / cover;
+}
+
+.more_inside{
+    position: absolute;
+    background: rgb(17, 127, 252);
+    height: 100%;
+    transition: .3s;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.more_inside ul{
+    margin-top: 20px;
+}
+
+.more_inside ul li{
+    margin-bottom: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.more_inner2 h1{
+    position: absolute;
+    color: white;
+    top: 37%;
+    width: 80%;
+    text-align: center;
+    left: 9%;
+    transition: .3s;
+    opacity: 1;
+}
+
+.more_inner2 .more_inside ul{
+    margin-top: 40px;
+}
+
+.more_inner3 h1{
+    padding-top: 20px;
+    top:8%;
+}
+
+.more_inner3 ul{
+    padding-top: 20px;
+}
+
+.more_inner3 ul li{
+    font-size: 25px;
+}
+
 /* register */
 
 .register{
@@ -1097,9 +1210,17 @@ footer{
 
 @media screen and (max-width:1266px){
 
+    .more_inner3 ul li{
+        font-size: 23px;
+        line-height: 1.9;
+    }
+
+    .more_inner2 .more_inside ul{
+        margin-top: 20px;
+    }
+
     .input1{
         width: 48.7%;
-
     }
 
     .new_content p{
@@ -1136,6 +1257,23 @@ footer{
 }
 
 @media screen and (max-width:1184px){
+
+    .more_inner3 ul li{
+        font-size: 21px;
+        line-height: 1.9;
+    }
+
+    .more_inner h1{
+        font-size:35px;
+    }
+
+    .more_inner1 h1{
+        top: 27%;
+    }
+
+    .more_inner2 .more_inside ul{
+        margin-top: 15px;
+    }
 
     .info1 h3{
         width: 70%;
@@ -1279,6 +1417,19 @@ footer{
 }
 
 @media screen and (max-width:1080px){
+
+    .more_inner3 ul li{
+        font-size: 21px;
+        line-height: 1.9;
+    }
+
+    .more_inner h1{
+        font-size:35px;
+    }
+
+    .more_inner1 h1{
+        top: 27%;
+    }
 
     .block1_inner1{
         padding-left: 20px;
@@ -1471,6 +1622,44 @@ footer{
 }
 
 @media screen and (max-width:1000px){
+
+    .more_content{
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        display: flex;
+        height: 800px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
+    .more_inner{
+        width: 100%;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .more_inner1 .more_inside ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .more_inner1 .more_inside ul span{
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    .more_inner h1{
+        font-size: 40px;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 27px;
+    }
+
+    .more_inner3 h1{
+        top: 18%;
+    }
 
     .footer_inner3{
         width: 30%;
@@ -1822,6 +2011,18 @@ footer{
 
 @media screen and (max-width:850px){
 
+    .more_inner3 h1{
+        top: 13%;
+    }
+
+    .more_inner2 h1{
+        top: 24%;
+    }
+
+    .more_inner2 ul{
+        margin-top: 20px !important;
+    }
+
     .footer_inner3{
         width: 30%;
         padding-left: 0px;
@@ -2026,6 +2227,14 @@ footer{
 }
 
 @media screen and (max-width:690px){
+
+    .more_content{
+        width: 100%;
+    }
+
+    .more_inner2 h1{
+        top: 23%;
+    }
 
     .next{
         left: 31%;
@@ -2439,6 +2648,32 @@ footer{
 
 @media screen and (max-width: 500px){
 
+    .more_inner h1{
+        font-size: 35px;
+    }
+    
+    .more_inner .more_inside ul{
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 20px !important;
+        margin-top: 10px !important;
+    }
+
+    .more_inner3 .more_inside ul{
+        padding-left: 20px !important;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 25px;
+    }
+
+    .more_inner2 h1{
+        top: 27%;
+    }
+
     .block1_content{
         flex-wrap: wrap;
     }
@@ -2517,6 +2752,14 @@ footer{
 
 @media screen and (max-width: 468px){
 
+    .more_inner3 .more_inside ul li{
+        font-size: 24px;
+    }
+
+    .more_inner3 h1{
+        top: 5%;
+    }
+
     .next{
         left: 21%;
     }
@@ -2576,6 +2819,20 @@ footer{
 
 @media screen and (max-width:444px){
 
+    .more_inner1 .more_inside ul span{
+        width: 50%;
+        margin-top: 15px;
+    }
+
+    .more_inner1 .more_inside{
+        padding-left: 10px;
+    }
+
+    .more_inner3 .more_inside ul{
+        padding-top: 0px;
+        margin-top: 20px;
+    }
+
     .team_container{
         height: 620px;
     }
@@ -2610,6 +2867,23 @@ footer{
 }
 
 @media screen and (max-width:420px){
+
+    .more_inner3 .more_inside ul{
+        padding-top: 0px;
+        margin-top: 20px;
+    }
+
+    .more_inner1 h1{
+        top: 20%;
+    }
+
+    .more_inner1 ul span li{
+        font-size: 18px;
+    }
+
+    .more_inner2 ul li{
+        font-size: 18px;
+    }
 
     .dropdown-item{
         font-size: 9px;
@@ -2807,6 +3081,20 @@ footer{
 
 @media screen and (max-width:400px){
 
+    .more_inner1 ul span li{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+
+    .more_inner1 ul{
+        margin-top: 10px !important;
+    }
+
+    .more_inner3 ul{
+        margin-top: 4px !important;
+    }
+
+
     .register_container{
         width: 100%;
         left: 0;
@@ -2859,6 +3147,16 @@ footer{
 }
 
 @media screen and (max-width:375px){
+
+    .more_inner1 ul span li{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .more_inner2 ul li{
+        font-size: 17px;
+        margin-bottom: 7px;
+    }
 
     .header_lower{
         bottom: 19%;
@@ -2970,6 +3268,11 @@ footer{
 }
 
 @media screen and (max-width:360px){
+
+    .more_inner1 ul span li{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
 
     .on{
         height: 670px;
