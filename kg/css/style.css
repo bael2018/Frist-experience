@@ -3103,6 +3103,12 @@ footer{
 
 @media screen and (max-width:400px){
 
+    .more_tel2{
+        right: 2%;
+        bottom: 2%;
+        font-size: 16px;
+    }
+
     .more_inner1 ul span li{
         font-size: 17px;
         margin-bottom: 10px;
