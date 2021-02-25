@@ -245,6 +245,23 @@ main{
     width: 100%;
 }
 
+/* more_tel */
+
+.more_tel{
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+
+.more_tel:hover{
+    color: white;
+    text-decoration: none;
+}
+
 /* on */
 
 .on{
@@ -1570,8 +1587,12 @@ footer{
     .more_inner{
         width: 100%;
         position: relative;
-        border: 1px solid green;
         margin-bottom: 20px;
+    }
+
+    .more_tel1{
+        bottom: 4%;
+        right: 43%;
     }
 }
 
@@ -2053,6 +2074,10 @@ footer{
         padding-left: 40px;
         width: 27%;
     }
+
+    .more_tel1{
+        right: 40%;
+    }
 }
 
 @media screen and (max-width:850px){
@@ -2318,6 +2343,10 @@ footer{
 
 @media screen and (max-width:690px){
 
+    .more_tel1{
+        right: 42%;
+    }
+
     .more_content{
         width: 100%;
         height: 800px;
@@ -2435,6 +2464,10 @@ footer{
 }
 
 @media screen and (max-width: 623px){
+    
+    .more_tel1{
+        right: 40%;
+    }
 
     .on{
         height: 570px;
@@ -2568,6 +2601,10 @@ footer{
 }
 
 @media screen and (max-width: 562px){
+
+    .more_tel1{
+        right: 37%;
+    }
 
     .block1_inside{
         margin-bottom: 80px;
@@ -2855,6 +2892,10 @@ footer{
 }
 
 @media screen and (max-width: 484px){
+
+    .more_tel1{
+        right: 35%;
+    }
 
     .more_inner2 ul{
         padding-top: 0px;
@@ -3234,6 +3275,10 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .more_tel1{
+        right: 33%;
+    }
+
     .block1_upper1{
         height: 280px;
     }
@@ -3370,6 +3415,10 @@ footer{
 }
 
 @media screen and (max-width:375px){
+
+    .more_tel1{
+        right: 31%;
+    }
 
     .more_inner3 ul{
         padding-top: 5px;

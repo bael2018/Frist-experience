@@ -251,6 +251,23 @@ main{
     width: 100%;
 }
 
+/* more_tel */
+
+.more_tel{
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+    font-weight: 500;
+    text-decoration: underline;
+    font-size: 20px;
+    color: white;
+}
+
+.more_tel:hover{
+    color: white;
+    text-decoration: none;
+}
+
 /* on */
 
 .on{
@@ -1622,6 +1639,11 @@ footer{
 }
 
 @media screen and (max-width:1000px){
+
+    .more_tel1{
+        bottom: 4%;
+        right: 43%;
+    }
 
     .more_content{
         width: 80%;
