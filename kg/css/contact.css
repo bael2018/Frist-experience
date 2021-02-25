@@ -308,7 +308,7 @@ main{
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 50%;
+    width: 100%;
 }
 
 .info_inside .info_block p{
@@ -496,6 +496,7 @@ footer{
 
 .footer_inner2{
     text-align: center;
+    padding-top: 50px;
 }
 
 .footer_inner2 a{
@@ -1167,7 +1168,7 @@ footer{
 
     .begin h1{
         color: rgb(58, 58, 58);
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .navbar-brand h1{
@@ -1251,7 +1252,7 @@ footer{
     }
     
     .info{
-        margin-bottom: 0px !important;
+        margin-bottom: 50px !important;
     }
 }
 
@@ -1260,6 +1261,11 @@ footer{
     footer{
         width: 100%;
         padding-top: 50px !important;
+    }
+
+    .begin h1{
+        color: rgb(58, 58, 58);
+        font-size: 24px;
     }
 }
 
@@ -1296,6 +1302,6 @@ footer{
 
     .begin h1{
         color: rgb(58, 58, 58);
-        font-size: 17px;
+        font-size: 20px;
     }
 }

@@ -5837,6 +5837,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: .5;
+  outline: none !important;
+  border: none !important;
 }
 
 .close:hover {
