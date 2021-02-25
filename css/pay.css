@@ -849,6 +849,15 @@ footer{
 
 @media screen and (max-width:992px){
 
+    .nav-link1{
+        padding: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .nav-item5{
+        padding-top: 0px !important;
+    }
+
     .dropdown-menu1{
         display: none !important;
     }
