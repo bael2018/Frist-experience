@@ -16,7 +16,7 @@ header{
     margin-top: 95px;
     height: 600px;
     position: relative;
-    background: url('../img/титульная\ стрница.jpg') center / cover fixed; 
+    background: url('../img/can-i-help-you.jpg') center / cover fixed; 
 }
 
 .nav_container{
@@ -753,6 +753,118 @@ main{
     font-size: 27px;
 }
 
+/* more_info */
+
+.more_content{
+    width: 100%;
+    border: 1px solid red;
+    justify-content: space-between;
+    display: flex;
+    height: 330px;
+    margin-bottom: 50px;
+}
+
+.more_inner{
+    width: 32%;
+    position: relative;
+    border: 1px solid green;
+}
+
+.more_inner:hover .more_inside{
+    opacity: 1;
+}
+
+.more_inner:hover::before{
+    opacity: 0;
+}
+
+.more_inner:hover h1{
+    opacity: 0;
+}
+
+.more_inner::before{
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: .3s;
+    opacity: 1;
+}
+
+.more_inner h1{
+    position: absolute;
+    color: white;
+    top: 20%;
+    width: 80%;
+    text-align: center;
+    left: 10%;
+    transition: .3s;
+    opacity: 1;
+}
+
+.more_inner1{
+    background: url("../img/услуги\ по\ всем\ видам\ споров.jpg") center / cover;
+}
+
+.more_inner2{
+    background: url("../img/бухгалтерские\ услуги.jpg") center / cover;
+}
+
+.more_inner3{
+    background: url("../img/адвокат\ по\ уголовным\ делам.jpg") center / cover;
+}
+
+.more_inside{
+    position: absolute;
+    background: rgb(17, 127, 252);
+    height: 100%;
+    transition: .3s;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.more_inside ul{
+    margin-top: 10px;
+}
+
+.more_inside ul li{
+    margin-bottom: 3px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.more_inner2 h1{
+    position: absolute;
+    color: white;
+    top: 37%;
+    width: 80%;
+    text-align: center;
+    left: 9%;
+    transition: .3s;
+    opacity: 1;
+}
+
+.more_inner2 .more_inside ul{
+    margin-top: 40px;
+}
+
+.more_inner3 h1{
+    padding-top: 20px;
+}
+
+.more_inner3 ul{
+    padding-top: 50px;
+}
+
+.more_inner3 ul li{
+    font-size: 30px;
+}
 /* register */
 
 .register{
@@ -1135,6 +1247,17 @@ footer{
         width: 70%;
         font-size: 38px;
     }
+
+    .more_inner2 h1{
+        font-size: 36px;
+        top: 37%;
+        width: 80%;
+        left: 9%;
+    }
+    
+    .more_inner3 ul{
+        padding-top: 30px;
+    }
 }
 
 @media screen and (max-width:1216px){
@@ -1154,6 +1277,13 @@ footer{
 }
 
 @media screen and (max-width:1184px){
+
+    .more_inner2 h1{
+        font-size: 36px;
+        top: 37%;
+        width: 80%;
+        left: 7%;
+    }
 
     .info1 h3{
         width: 70%;
@@ -1227,6 +1357,13 @@ footer{
 }
 
 @media screen and (max-width:1100px){
+
+    .more_inner2 h1{
+        font-size: 36px;
+        top: 37%;
+        width: 80%;
+        left: 5%;
+    }
 
     .info1 h3{
         width: 70%;
@@ -1355,6 +1492,87 @@ footer{
 
     .team_content .team_inner .team_lower h4{
         font-size: 26px;
+    }
+}
+
+@media screen and (max-width:1020px){
+
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner1 .more_inside ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 26px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 22px;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 23px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 30px;
+    }
+
+    .more_inner1 .more_inside ul span{
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    .more_inner2 h1{
+        font-size: 45px;
+        top: 34%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .more_inner1 h1{
+        font-size: 45px;
+        top: 27%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .more_inner3 h1{
+        font-size: 45px;
+        top: 15%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .more_content{
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        display: flex;
+        height: 800px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+    }
+
+    .more_inner{
+        width: 100%;
+        position: relative;
+        border: 1px solid green;
+        margin-bottom: 20px;
     }
 }
 
@@ -1919,6 +2137,66 @@ footer{
 
 @media screen and (max-width:800px){
 
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 15px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 22px;
+    }
+
+    .more_inner1 .more_inside ul{
+        padding-left: 10px;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 22px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 30px;
+    }
+
+    .more_inner1 .more_inside ul span{
+        width: 40%;
+        margin-top: 15px;
+    }
+
+    .more_inner2 h1{
+        font-size: 40px;
+        top: 35%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .more_inner1 h1{
+        font-size: 40px;
+        top: 29%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .more_inner3 h1{
+        font-size: 40px;
+        top: 20%;
+        width: 80%;
+        left: 10%;
+    }
+
     .footer_inner3{
         padding-left: 40px;
         width: 29%;
@@ -2040,6 +2318,11 @@ footer{
 }
 
 @media screen and (max-width:690px){
+
+    .more_content{
+        width: 100%;
+        height: 800px;
+    }
 
     .on{
         height: 540px;
@@ -2202,7 +2485,45 @@ footer{
 
 @media screen and (max-width: 584px){
 
-    
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 20px;
+    }
+
+    .more_inner1 .more_inside ul{
+        padding-left: 5px;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 20px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 30px;
+    }
+
+    .more_inner1 .more_inside ul span{
+        width: 40%;
+        margin-top: 21px;
+    }
+
     .footer_inner1{
         width: 50%;
     }
@@ -2328,6 +2649,36 @@ footer{
 }
 
 @media screen and (max-width: 528px){
+
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 18px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
+    .more_inner1 h1{
+        top: 20%;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 30px;
+    }
 
     .news{
         width: 100%;
@@ -2506,6 +2857,59 @@ footer{
 
 @media screen and (max-width: 484px){
 
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .more_inner1 .more_inside ul{
+        margin-top: 20px;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 18px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 18px;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 26px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 24px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
+    .more_inner1 h1{
+        top: 30%;
+        font-size: 35px;
+    }
+
+    .more_inner2 h1{
+        top: 30%;
+        font-size: 35px;
+    }
+
+    .more_inner3 h1{
+        top: 20%;
+        font-size: 35px;
+    }
+
     .footer_inner1{
         width: 50%;
     }
@@ -2586,6 +2990,57 @@ footer{
 }
 
 @media screen and (max-width:444px){
+
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .more_inner1 .more_inside ul{
+        margin-top: 5px;
+    }
+
+    .more_inner1 .more_inside ul span{
+        width: 50%;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        list-style: none;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 18px;
+        list-style: none;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 26px;
+        list-style: none;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 24px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
+    .more_inner1 h1{
+        top: 24%;
+        font-size: 35px;
+    }
 
     .team_container{
         height: 620px;
@@ -2760,7 +3215,7 @@ footer{
     }
 
     footer{
-        padding-top: 30px !important;
+        padding-top: 50px !important;
     }
 
     .bloks{
@@ -2838,6 +3293,47 @@ footer{
         font-size: 28px;
         width: 80%;
     }
+
+    .more_inner2 ul{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .more_inner3 ul{
+        padding-top: 10px;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 50px;
+        margin-top: 25px;
+    }
+
+    .more_inner1 .more_inside ul{
+        margin-top: 12px;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 17px;
+        margin-bottom: 11px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 17px;
+        list-style: none;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 26px;
+        list-style: none;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 24px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
 }
 
 @media screen and (max-width:388px){
@@ -2876,6 +3372,37 @@ footer{
 
 @media screen and (max-width:375px){
 
+    .more_inner3 ul{
+        padding-top: 5px;
+    }
+
+    .more_inner1 .more_inside ul{
+        margin-top: 12px;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 16px;
+        margin-bottom: 11px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 16px;
+        list-style: none;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 26px;
+        list-style: none;
+    }
+
+    .more_inner2 .more_inside ul{
+        padding-left: 24px;
+    }
+
+    .more_inner3 .more_inside ul{
+        margin-top: 35px;
+    }
+
     .header_lower{
         bottom: 19%;
     }
@@ -2894,7 +3421,7 @@ footer{
 
     footer{
         width: 100%;
-        padding-top: 50px !important;
+        padding-top: 40px !important;
     }
 
     .footer_container{
@@ -2973,7 +3500,7 @@ footer{
     }
 
     footer{
-        padding-top: 0px !important;
+        padding-top: 20px !important;
     }
 
     .news{
@@ -3101,6 +3628,23 @@ footer{
 
     .block1_inside2{
         margin-bottom: 190px;
+    }
+
+    .more_inner1 h1{
+        top: 13%;
+    }
+
+    .more_inner1 .more_inside ul span li{
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+
+    .more_inner2 .more_inside ul li{
+        font-size: 15px;
+    }
+
+    .more_inner3 .more_inside ul li{
+        font-size: 24px;
     }
 }
 

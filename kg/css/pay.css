@@ -322,13 +322,16 @@ main{
 }
 
 .block_lower{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     text-align: center;
+    background: rgb(17, 127, 252);
+    padding: 40px 0;
+    border-radius: 5px;
 }
 
 .block_lower h3{
-    color: rgb(65, 65, 65);
+    color: rgb(255, 255, 255);
     font-size: 27px;
     width: 60%;
     margin: 0 auto;
@@ -340,17 +343,26 @@ main{
 .block_lower h3::before{
     content: "";
     left: 20%;
-    background: rgb(17, 127, 252);
+    background: rgb(255, 255, 255);
     height: 2px;
     width: 60%;
     bottom: -10px;
     position: absolute;
 }
 
+.phone1{
+    color: white !important;
+    text-decoration: underline;
+}
+
+.phone1:hover{
+    text-decoration: none;
+}
+
 .block_lower p{
     font-size: 24px;
     font-weight: 500;
-    color: rgb(59, 59, 59);
+    color: rgb(255, 255, 255);
 }
 
 /* footer */
