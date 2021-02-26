@@ -1179,18 +1179,18 @@ footer{
 .footer_inner3 ul{
     list-style: none;
     margin: 0px;
-    margin-left: 20px;
+    margin-left: 15px;
     padding: 0px;
 }
 
 .footer_inner3 ul li{
-    margin-bottom: 15px;
+    margin-top: 5px;
     width: 100%;
 }
 
 .footer_inner3 ul li a{
     padding: 4px 10px;
-    font-size: 75px !important;
+    font-size: 55px !important;
     color: white;
     border-radius: 3px;
 }
@@ -1203,26 +1203,6 @@ footer{
     transform: rotate(360deg);
     color: black;
 }
-
-.footer_inner3 ul li:nth-child(1) a:nth-child(1){
-    margin-right: 20px;
-    padding: 4px 10px;
-    padding-right: 9px;
-}
-
-.footer_inner3 ul li:nth-child(2) a:nth-child(1){
-    margin-right: 18px;
-    padding: 4px 10px;
-    padding-left: 9px;
-    font-size: 34px !important;
-}
-
-.footer_inner3 ul li:nth-child(2) a:nth-child(2){
-    padding: 4px 10px;
-    padding-right: 9px;
-    font-size: 31px;
-}
-
 
 /* Адаптация */
 
@@ -3237,7 +3217,7 @@ footer{
 @media screen and (max-width:411px){
 
     .burder_links{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .team_container{
@@ -3321,7 +3301,7 @@ footer{
     }
 
     .burder_links{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .team_container{
@@ -3462,7 +3442,7 @@ footer{
     }
 
     .burder_links{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
 
     .header_lower{
@@ -3624,7 +3604,7 @@ footer{
 
     .burder_links{
         margin-left: 10px;
-        margin-bottom: 17px;
+        margin-bottom: 0px;
     }
     
     .burder_links .nav-item{

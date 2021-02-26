@@ -1200,13 +1200,13 @@ footer{
 }
 
 .footer_inner3 ul li{
-    margin-top: 15px;
+    margin-top: 5px;
     width: 100%;
 }
 
 .footer_inner3 ul li a{
     padding: 4px 10px;
-    font-size: 70px !important;
+    font-size: 55px;
     color: white;
     border-radius: 3px;
 }
@@ -1218,25 +1218,6 @@ footer{
 .footer_inner3 ul li a:hover i{
     transform: rotate(360deg);
     color: black;
-}
-
-.footer_inner3 ul li:nth-child(1) a:nth-child(1){
-    margin-right: 20px;
-    padding: 4px 10px;
-    padding-right: 9px;
-}
-
-.footer_inner3 ul li:nth-child(2) a:nth-child(1){
-    margin-right: 18px;
-    padding: 4px 10px;
-    padding-left: 9px;
-    font-size: 34px !important;
-}
-
-.footer_inner3 ul li:nth-child(2) a:nth-child(2){
-    padding: 4px 10px;
-    padding-right: 9px;
-    font-size: 31px;
 }
 
 
@@ -3589,7 +3570,7 @@ footer{
     }
 
     .burder_links{
-        margin-bottom: 17px;
+        margin-bottom: 7px;
     }
 
     .team_container{
@@ -3748,7 +3729,7 @@ footer{
     }
 
     .burder_links{
-        margin-bottom: 17px;
+        margin-bottom: 7px;
     }
 
     .header_lower{
@@ -3941,7 +3922,7 @@ footer{
 
     .burder_links{
         margin-left: 10px;
-        margin-bottom: 17px;
+        margin-bottom: 7px;
     }
     
     .burder_links .nav-item{
