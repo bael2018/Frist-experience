@@ -1094,6 +1094,7 @@ footer{
     transition: .3s;
     border-bottom: 1px solid white;
     position: relative;
+    font-weight: 500;
 }
 
 .opening:hover::before{

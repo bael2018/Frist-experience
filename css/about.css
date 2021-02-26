@@ -459,6 +459,7 @@ footer{
     color: white;
     outline: none !important;
     background: none;
+    font-weight: 500;
     transition: .3s;
     border-bottom: 1px solid white;
     position: relative;

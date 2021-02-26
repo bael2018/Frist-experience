@@ -468,6 +468,7 @@ footer{
     transition: .3s;
     opacity: 0;
     transform: rotate(45deg);
+    font-weight: 500;
 }
 
 .opening i{

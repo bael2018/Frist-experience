@@ -428,6 +428,7 @@ footer{
     position: absolute;
     left: -5px;
     top: 5px;
+    font-weight: 500;
     width: 10px;
     background: rgb(252, 252, 252);
     height: 10px;

@@ -438,6 +438,7 @@ footer{
     outline: none !important;
     background: none;
     transition: .3s;
+    font-weight: 500;
     border-bottom: 1px solid white;
     position: relative;
 }
