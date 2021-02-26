@@ -566,6 +566,7 @@ footer{
 .footer_inner3 ul{
     list-style: none;
     margin: 0px;
+    margin-left: 20px;
     padding: 0px;
 }
 
@@ -576,7 +577,7 @@ footer{
 
 .footer_inner3 ul li a{
     padding: 4px 10px;
-    font-size: 45px;
+    font-size: 75px;
     color: white;
     border-radius: 3px;
 }
