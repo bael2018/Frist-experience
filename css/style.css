@@ -2500,6 +2500,10 @@ footer{
 
 @media screen and (max-width: 584px){
 
+    header{
+        background: url('../img/can-i-help-you-min.jpg') center / cover;
+    }
+
     .more_inner2 ul{
         padding-top: 0px;
         margin-top: 0px;
