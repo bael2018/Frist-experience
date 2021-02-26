@@ -1342,6 +1342,10 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .footer_inner3 ul{
+        margin-left: 10px;
+    }
+    
     .opening{
         text-align: center;
         border: none;

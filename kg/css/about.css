@@ -1359,6 +1359,10 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .footer_inner3 ul{
+        margin-left: 5px;
+    }
+
     .footer_inner3 h2{
         font-size: 27px;
     }

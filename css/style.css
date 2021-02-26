@@ -3257,6 +3257,10 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .footer_inner3 ul{
+        margin-left: 10px;
+    }
+
     .more_tel1{
         right: 33%;
     }

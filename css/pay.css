@@ -1202,6 +1202,10 @@ footer{
 
 @media screen and (max-width:412px){
 
+    .footer_inner3 ul{
+        margin-left: 10px;
+    }
+
     .block1_title h3{
         margin-bottom: 24px;
         font-size: 23px;
