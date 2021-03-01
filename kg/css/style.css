@@ -286,16 +286,6 @@ main{
     position: relative;
 }
 
-.on h1::before{
-    content: "";
-    position: absolute;
-    bottom: -23px;
-    left: 49%;
-    width: 70px;
-    background: rgb(17, 127, 252);
-    height: 4px;
-}
-
 .on h1::after{
     content: "";
     position: absolute;
@@ -823,8 +813,8 @@ main{
     position: absolute;
     color: white;
     top: 37%;
-    width: 80%;
-    text-align: center;
+    width: 88%;
+    text-align: center !important;
     left: 5%;
     transition: .3s;
     opacity: 1;

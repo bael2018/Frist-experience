@@ -268,21 +268,11 @@ main{
     position: relative;
 }
 
-.on h1::before{
-    content: "";
-    position: absolute;
-    bottom: -23px;
-    left: 49%;
-    width: 70px;
-    background: rgb(17, 127, 252);
-    height: 4px;
-}
-
 .on h1::after{
     content: "";
     position: absolute;
-    bottom: -13px;
-    left: 46%;
+    bottom: -15px;
+    left: 47%;
     width: 70px;
     background: rgb(255, 255, 255);
     height: 4px;
@@ -832,7 +822,7 @@ main{
     color: white;
     top: 37%;
     width: 80%;
-    text-align: center;
+    text-align: center !important;
     left: 9%;
     transition: .3s;
     opacity: 1;
@@ -1200,7 +1190,6 @@ footer{
 
     .input1{
         width: 48.7%;
-
     }
 
     .new_content p{
@@ -1328,6 +1317,10 @@ footer{
 }
 
 @media screen and (max-width:1100px){
+
+    .on h1::after{
+        left: 46%;
+    }
 
     .footer_inner2 a p{
         left: 23%;
@@ -2001,6 +1994,10 @@ footer{
 }
 
 @media screen and (max-width:850px){
+
+    .on h1::after{
+        left: 44%;
+    }
     
     .on{
         height: 510px;
@@ -2404,6 +2401,10 @@ footer{
     .info1 h3{
         font-size: 26px;
         line-height: 1.4;
+    }
+
+    .on h1::after{
+        left: 42%;
     }
 }
 
