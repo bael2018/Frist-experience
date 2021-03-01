@@ -146,20 +146,21 @@ header{
     letter-spacing: 1px;
 }
 
+.navbar{
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.logo{
+    width: 150px;
+}
+
 .burder_links{
     display: inline-flex;
 }
 
 .navbar-brand{
-    margin-left: 30px;
-}
-
-.navbar-brand:hover p::before{
-    animation-play-state: paused;
-}
-
-.navbar-brand:hover p::after{
-    animation-play-state: paused;
+    margin-left: 0px;
 }
 
 .nav-link img{
@@ -170,52 +171,23 @@ header{
     margin-left: 5px;
 }
 
-.navbar-brand h1{
+.navbar-brand b{
     color: white;
     margin: 0px;
+    left: 140px;
+    top: 22px;
+    position: absolute;
 }
 
 .navbar-brand P{
     color: rgb(255, 255, 255);
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    left: 140px;
+    top: 50px;
     margin: 0px;
     letter-spacing: 3px;
-    position: relative;
-}
-
-.navbar-brand P::before{
-    content: "";
     position: absolute;
-    top: 4.5px;
-    right: 20px;
-    width: 30px;
-    background: white;
-    height: 3px;
-    animation: brand2 2s linear infinite alternate;
-}
-
-.navbar-brand P::after{
-    content: "";
-    position: absolute;
-    top: 13px;
-    right: 20px;
-    width: 30px;
-    background: rgb(17, 127, 252);
-    height: 3px;
-
-    animation: brand1 2s linear infinite alternate;
-}
-
-@keyframes brand1{
-    100%{
-        transform: translate(10px , 0px);
-    }
-}
-
-@keyframes brand2{
-    100%{
-        transform: translate(-10px , 0px);
-    }
 }
 
 /* header_lower */
@@ -1002,7 +974,7 @@ main{
 footer{
     width: 100%;
     background: rgb(17, 127, 252);
-    padding-top: 40px;
+    padding-top: 0px;
 }
 
 .footer_container{
@@ -1016,6 +988,7 @@ footer{
 
 .footer_inner1{
     width: 30%;
+    padding-top: 50px;
 }
 
 .footer_inner2{
@@ -1141,11 +1114,11 @@ footer{
     font-weight: 500;
 }
 
-/* footer_inner1 */
+/* footer_inner2 */
 
 .footer_inner2{
     text-align: center;
-    padding-top: 50px;
+    position: relative;
 }
 
 .footer_inner2 a{
@@ -1153,32 +1126,29 @@ footer{
     color: white;
 }
 
-.footer_inner2 a h1{
-    font-size: 60px;
-    margin-bottom: 0px;
-}
-
-.footer_inner2 a p:nth-child(2){
-    font-size: 20px;
-    position: relative;
-}
-
-.footer_inner2 a p:nth-child(2)::before{
-    content: "";
+.footer_inner2 a img{
+    width: 170px;
     position: absolute;
-    background: white;
-    height: 2px;
-    width: 10%;
-    left: 45%;
-    bottom: -9px;
+    top: 5%;
+    left: 35%;
 }
 
-.footer_inner2 a p:nth-child(3){
-    font-size: 15px;
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 100%;
-    line-height: 1.8;
+.footer_inner2 a h4{
+    font-weight: 600;
+    margin-top: 0px;
+    position: absolute;
+    top: 55%;
+    left: 38%;
+    font-size: 29px;
+}
+
+.footer_inner2 a p{
+    font-weight: 600;
+    font-size: 19px;
+    top: 70%;
+    left: 26%;
+    letter-spacing: 2px;
+    position: absolute;
 }
 
 /* footer_inner3 */
@@ -1186,6 +1156,7 @@ footer{
 .footer_inner3{
     text-align: center;
     padding-left: 60px;
+    padding-top: 50px;
     width: 25%;
 }
 
@@ -1358,6 +1329,10 @@ footer{
 
 @media screen and (max-width:1100px){
 
+    .footer_inner2 a p{
+        left: 23%;
+    }
+
     .more_inner2 h1{
         font-size: 36px;
         top: 37%;
@@ -1387,16 +1362,6 @@ footer{
 
     .footer_inner2 a h1{
         font-size: 40px;
-    }
-    
-    .footer_inner2 a p:nth-child(2){
-        font-size: 17px;
-    }
-    
-    .footer_inner2 a p:nth-child(3){
-        font-size: 15px;
-        margin-top: 30px;
-        line-height: 1.5;
     }
 
     .footer_inner1 h2{
@@ -1649,25 +1614,6 @@ footer{
     .h11{
         font-size: 38px;
     }
-
-    .navbar-brand h1{
-        color: white;
-        margin: 0px;
-        font-size: 33px;
-    }
-    
-    .navbar-brand P{
-        color: rgb(255, 255, 255);
-        font-size: 15px;
-        margin: 0px;
-        letter-spacing: 3px;
-        position: relative;
-    }
-
-    .navbar-brand P::before,
-    .navbar-brand P::after{
-        display: none;
-    }
 }
 
 @media screen and (max-width:1070px){
@@ -1687,6 +1633,10 @@ footer{
 }
 
 @media screen and (max-width:992px){
+
+    .footer_inner2 a p{
+        left: 21%;
+    }
 
     .nav-link1{
         padding: 0px !important;
@@ -1832,7 +1782,7 @@ footer{
     }
 
     .navbar-brand{
-        margin-left: 27px;
+        margin-left: 0px;
     }
 
     .navbar-brand h1{
@@ -1851,14 +1801,6 @@ footer{
         line-height: 1.4;
     }
     
-    .navbar-brand P{
-        color: rgb(255, 255, 255);
-        font-size: 16px;
-        margin: 0px;
-        letter-spacing: 3px;
-        position: relative;
-    }
-
     .bloksu div{
         width: 48%;
         height: auto;
@@ -1944,12 +1886,6 @@ footer{
         margin-top: 5px;
         font-size: 18px;
         font-weight: 300;
-    }
-
-    .footer_inner2 a p:nth-child(3){
-        font-size: 13px;
-        margin-top: 20px;
-        line-height: 1.5;
     }
 }
 
@@ -2825,6 +2761,11 @@ footer{
 
 @media screen and (max-width: 500px){
 
+    .navbar-brand b,
+    .navbar-brand P{
+        display: none;
+    }
+
     .block1_content{
         flex-wrap: wrap;
     }
@@ -3267,6 +3208,12 @@ footer{
 }
 
 @media screen and (max-width:412px){
+
+    .footer_inner1,
+    .footer_inner3{
+        padding-top: 10px;
+    }
+    
 
     .footer_inner3 ul{
         margin-left: 10px;
@@ -3890,7 +3837,7 @@ footer{
 
     .navbar-brand{
         margin: 0px;
-        margin-left: 14px;
+        margin-left: 0px;
     }
 }
 
@@ -3918,7 +3865,7 @@ footer{
 
     .navbar-brand{
         margin: 0px;
-        margin-left: 14px;
+        margin-left: 0px;
     }
 
     .navbar-brand h1{
