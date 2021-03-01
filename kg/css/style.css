@@ -841,7 +841,7 @@ main{
     top: 37%;
     width: 80%;
     text-align: center;
-    left: 9%;
+    left: 5%;
     transition: .3s;
     opacity: 1;
 }
@@ -1209,6 +1209,10 @@ footer{
 
 @media screen and (max-width:1266px){
 
+    .more_inner2 h1{
+        left: 2%;
+    }
+
     .more_inner3 ul li{
         font-size: 23px;
         line-height: 1.9;
@@ -1256,6 +1260,10 @@ footer{
 }
 
 @media screen and (max-width:1184px){
+
+    .more_inner2 h1{
+        left: 5%;
+    }
 
     .more_inner3 ul li{
         font-size: 21px;
@@ -2875,6 +2883,10 @@ footer{
 }
 
 @media screen and (max-width:420px){
+
+    .footer_inner1 ul li{
+        margin-bottom: 25px !important; 
+    }
 
     .more_inner3 .more_inside ul{
         padding-top: 0px;

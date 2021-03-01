@@ -1328,6 +1328,10 @@ footer{
 
 @media screen and (max-width:420px){
 
+    .footer_inner1 ul li{
+        margin-bottom: 25px !important; 
+    }
+
     .navbar-brand h1{
         color: white;
         margin: 0px;

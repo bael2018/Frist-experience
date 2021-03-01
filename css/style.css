@@ -816,6 +816,7 @@ main{
     width: 80%;
     text-align: center;
     left: 10%;
+    font-size: 35px;
     transition: .3s;
     opacity: 1;
 }
@@ -2929,6 +2930,7 @@ footer{
 
     .more_inner2 h1{
         top: 30%;
+        left: 10%;
         font-size: 35px;
     }
 
@@ -3103,6 +3105,10 @@ footer{
 }
 
 @media screen and (max-width:420px){
+
+    .footer_inner1 ul li{
+        margin-bottom: 25px !important; 
+    }
 
     .dropdown-item{
         font-size: 9px;
@@ -3372,6 +3378,10 @@ footer{
 }
 
 @media screen and (max-width:388px){
+
+    .more_inner2 h1{
+        left: 5%;
+    }
 
     .block1_inside1{
         height: 1000px !important;

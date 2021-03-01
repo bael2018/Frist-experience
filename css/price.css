@@ -1000,7 +1000,7 @@ footer{
 @media screen and (max-width: 468px){
 
     footer{
-        padding-top: 100px !important;
+        padding-top: 50px !important;
     }
 
     .footer_inner1{
@@ -1031,6 +1031,10 @@ footer{
 }
 
 @media screen and (max-width:420px){
+
+    .footer_inner1 ul li{
+        margin-bottom: 25px !important; 
+    }
 
     .navbar-brand h1{
         color: white;
